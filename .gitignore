@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# Neo4j
+neo4j/
+
+# Data files (可选：如果数据文件太大，可以不上传)
+# data/raw/
+# data/external/
+
+# Test results
+*_test_results.xlsx
+test_failure_analysis.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Deployment
+deploy/*.log
+*.pid
+
+# Models (如果模型文件太大)
+models/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls

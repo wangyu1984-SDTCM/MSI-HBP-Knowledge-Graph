@@ -1,274 +1,362 @@
-# MSI-HBP 精神应激性高血压中医知识图谱项目
+# MSI-HBP 精神应激性高血压中医知识图谱
 
-基于GB/T38324-2019《信息科学中医语言系统语义网络框架》标准构建的精神应激性高血压（MSI-HBP）中医知识图谱系统。
+<div align="center">
 
-## 📋 项目概述
+![GitHub stars](https://img.shields.io/github/stars/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph?style=social)
+![GitHub forks](https://img.shields.io/github/forks/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph?style=social)
+![GitHub issues](https://img.shields.io/github/issues/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-本项目旨在构建一个专门针对精神应激性高血压（Mental Stress-Induced Hypertension, MSI-HBP）的中医知识图谱，通过**自顶向下**和**自下向上**两种构建策略，整合文献数据、指南共识和病历数据，形成完整的知识体系。
+**精神应激性高血压中医知识图谱系统**
 
-### 构建策略
+[English](README_EN.md) | 简体中文
 
-#### 1. 自顶向下构建
-- **数据来源**：CNKI、万方、维普、PubMed等文献数据库
-- **处理流程**：文献采集 → 文本提取 → 知识抽取 → 实体对齐 → 知识融合
+</div>
 
-#### 2. 自下向上构建
-- **数据来源**：指南、专家共识、病历数据
-- **处理流程**：数据采集 → 本体构建 → 实体抽取 → 关系抽取 → 知识融合
+---
 
-## 🏗️ 项目结构
+## � 项目简介
 
-```
-MSI-HBP-KG/
-├── data/                           # 数据目录
-│   ├── raw/                        # 原始数据
-│   │   ├── literature/             # 文献数据（自顶向下）
-│   │   ├── guidelines/             # 指南数据（自下向上）
-│   │   └── medical_records/        # 病历数据（自下向上）
-│   ├── processed/                  # 处理后的数据
-│   │   ├── extracted_triples/      # 抽取的三元组
-│   │   └── fused_knowledge/        # 融合后的知识
-│   └── external/                   # 外部数据源
-│
-├── src/                            # 源代码
-│   ├── crawler/                    # 数据采集模块
-│   ├── extraction/                 # 知识抽取模块
-│   ├── fusion/                     # 知识融合模块
-│   ├── storage/                    # 知识存储模块
-│   ├── mining/                     # 知识挖掘模块
-│   └── utils/                      # 工具模块
-│
-├── scripts/                        # 脚本
-│   └── run_pipeline.py             # 运行完整流程
-│
-├── notebooks/                      # Jupyter笔记本
-├── tests/                          # 测试代码
-├── docs/                           # 文档
-├── .env.example                    # 环境变量示例
-├── requirements.txt                # Python依赖
-└── README.md                       # 项目说明
-```
+本项目构建了**精神应激性高血压（Mental Stress-Induced Hypertension, MSI-HBP）**的中医知识图谱，整合中医理论、临床经验和现代研究成果，为中医药治疗精神应激性高血压提供智能化知识支持。
+
+### ✨ 核心特性
+
+- 🧠 **智能知识抽取**: 从文献、指南、病历中自动抽取实体和关系
+- 🔗 **多源知识融合**: 整合异构数据源，构建统一知识图谱
+- 💾 **图数据库存储**: 基于Neo4j的高性能图存储
+- 💬 **智能问答系统**: 基于LLM和知识图谱的中医问答
+- 📊 **知识可视化**: 交互式知识图谱可视化展示
+- 🎯 **高准确率**: 测试准确率达92.67%
+
+### 📊 数据规模
+
+- **实体数量**: 1,033个（24种类型）
+- **关系数量**: 312条（4种类型）
+- **数据覆盖率**: 100%
+- **测试准确率**: 92.67%
+
+---
 
 ## 🚀 快速开始
 
-### ⚡ 一键启动（推荐）
+### 环境要求
 
-**系统已完成构建并可直接使用！**
+- Python 3.8+
+- Neo4j 5.x
+- 8GB+ RAM
 
-#### Windows用户
-双击运行以下批处理文件：
-- `启动Web界面.bat` - 启动Web可视化界面
-- `启动命令行问答.bat` - 启动命令行问答系统
+### 1. 克隆项目
 
-#### 命令行启动
 ```bash
-# 启动Web界面（推荐）
-streamlit run app.py
-# 然后在浏览器打开: http://localhost:8501
-
-# 启动命令行问答
-python chat.py
-
-# 测试问答系统
-python test_qa.py
+git clone https://github.com/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph.git
+cd MSI-HBP-Knowledge-Graph
 ```
 
-### 📊 系统功能
-
-#### 1. Web可视化界面
-- **智能问答**：输入中医问题，获取专业解答
-- **知识浏览**：浏览实体和三元组，支持搜索和筛选
-- **统计分析**：查看知识图谱统计信息和核心实体
-
-#### 2. 命令行问答
-- 交互式问答体验
-- 实时答案生成
-- 相关知识展示
-
-### 💡 示例问题
-
-试试这些问题：
-- 精神应激性高血压有什么症状？
-- 肝阳上亢怎么治疗？
-- 天麻钩藤饮的作用是什么？
-- 失眠和高血压有什么关系？
-- 什么中药可以治疗焦虑？
-
-### 📈 数据统计
-
-- **实体总数**：924个
-- **三元组总数**：1144个
-- **实体类型**：症状(286)、治则治法(157)、病机(129)、方剂(123)、中药(121)、疾病(84)
-- **关系类型**：治疗(698)、引起(213)、由...组成(175)、使用(52)
-
----
-
-### 🔧 高级功能
-
-#### 重新运行知识抽取
-
-如果需要处理新的PDF文献：
+### 2. 安装依赖
 
 ```bash
-# 运行完整流程（抽取 + 融合 + 挖掘）
-python run_full_pipeline.py
-
-# 仅运行知识抽取
-python run_extraction.py
-
-# 查看挖掘结果
-python view_mining_results.py
+pip install -r requirements.txt
 ```
 
-#### 构建Neo4j图数据库（可选）
+### 3. 配置环境变量
+
+创建 `.env` 文件：
+
+```env
+# LLM配置
+MODEL_BASE_URL=https://api.siliconflow.cn/v1
+MODEL_API_KEY=your_api_key_here
+MODEL_NAME=Qwen/Qwen2.5-7B-Instruct
+MODEL_TEMPERATURE=0.1
+
+# Neo4j配置
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=your_password_here
+```
+
+### 4. 启动Neo4j
+
+**使用Docker（推荐）:**
 
 ```bash
-# 启动Neo4j数据库
 docker run -d \
   --name neo4j \
   -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/123456 \
+  -e NEO4J_AUTH=neo4j/your_password \
   neo4j:latest
+```
 
-# 构建图数据库
+**或直接安装Neo4j:**
+
+访问 [Neo4j下载页面](https://neo4j.com/download/)
+
+### 5. 构建知识图谱
+
+```bash
 python build_graph.py
 ```
 
-### 📚 详细文档
+### 6. 启动Web应用
 
-- **使用指南**：`使用指南.md` - 详细的使用说明
-- **项目报告**：`项目完成报告.md` - 完整的项目总结
-- **快速开始**：`START_HERE.md` - 新手入门指南
-- **API配置**：`docs/API_GUIDE.md` - API配置说明
-
-## 📊 知识图谱Schema
-
-### 实体类型（6种）
-
-| 实体类型 | 英文名称 | 说明 | 示例 |
-|---------|---------|------|------|
-| 疾病 | Disease | 疾病名称 | 精神应激性高血压、高血压 |
-| 症状 | Symptom | 临床症状 | 头痛、失眠、焦虑、心悸 |
-| 病机 | Pathogenesis | 中医病机 | 肝阳上亢、心肾不交、肝郁气滞 |
-| 中药 | Herb | 中药材 | 黄芪、当归、天麻、钩藤 |
-| 方剂 | Formula | 中药方剂 | 天麻钩藤饮、逍遥散 |
-| 治则治法 | TreatmentMethod | 治疗原则和方法 | 平肝潜阳、疏肝解郁 |
-
-### 关系类型（4种）
-
-| 关系类型 | 英文名称 | 主体 | 客体 | 说明 |
-|---------|---------|------|------|------|
-| 使用 | USE | 治则治法/病机 | 中药/方剂/治则治法 | 在治疗中使用 |
-| 治疗 | TREAT | 中药/方剂/治则治法 | 疾病/症状/病机 | 提供治疗作用 |
-| 由...组成 | COMPOSED_OF | 方剂 | 中药 | 方剂的组成 |
-| 引起 | CAUSE | 病机 | 疾病/症状 | 病机导致疾病或症状 |
-
-### 知识图谱示例
-
-```
-天麻钩藤饮 -[由...组成]-> 天麻
-天麻钩藤饮 -[由...组成]-> 钩藤
-天麻钩藤饮 -[治疗]-> 肝阳上亢
-肝阳上亢 -[引起]-> 头痛
-肝阳上亢 -[引起]-> 眩晕
-平肝潜阳 -[使用]-> 天麻钩藤饮
+```bash
+streamlit run app.py
 ```
 
-## 🔧 技术栈
-
-- **数据采集**：Requests, BeautifulSoup, Playwright
-- **PDF解析**：PyPDF2, pdfminer.six
-- **知识抽取**：LangChain + LLM (GPT-4)
-- **知识融合**：实体对齐、消歧算法
-- **图数据库**：Neo4j + py2neo
-- **知识挖掘**：NetworkX, python-louvain
-- **数据分析**：Pandas, NumPy
-- **可视化**：Matplotlib, Pyvis
-
-## 📖 使用说明
-
-### 数据准备
-
-1. **文献数据**：将PDF文献放入项目根目录
-2. **指南数据**：将指南文档放入 `data/raw/guidelines/`
-3. **病历数据**：将病历数据放入 `data/raw/medical_records/`
-
-### 知识抽取
-
-系统会自动从文本中抽取以下信息：
-- 实体：疾病、症状、病机、中药、方剂、治则治法
-- 关系：使用、治疗、由...组成、引起
-
-### 知识融合
-
-- **实体对齐**：将不同来源的相同实体对齐
-- **实体消歧**：区分同名不同义的实体
-- **知识去重**：去除重复的三元组
-
-### 图谱查询
-
-使用Neo4j浏览器或Cypher查询语言：
-
-```cypher
-// 查询所有治疗高血压的方剂
-MATCH (f:Formula)-[:TREAT]->(d:Disease {name: "精神应激性高血压"})
-RETURN f.name
-
-// 查询天麻钩藤饮的组成
-MATCH (f:Formula {name: "天麻钩藤饮"})-[:COMPOSED_OF]->(h:Herb)
-RETURN h.name
-
-// 查询肝阳上亢引起的症状
-MATCH (p:Pathogenesis {name: "肝阳上亢"})-[:CAUSE]->(s:Symptom)
-RETURN s.name
-```
-
-## ⚠️ 注意事项
-
-1. **API配置**：确保LLM API密钥配置正确
-2. **Neo4j连接**：确保Neo4j数据库已启动
-3. **PDF格式**：PDF文件需要是可提取文本的格式（非扫描版）
-4. **API限制**：注意LLM API的调用频率限制
-5. **数据质量**：知识抽取质量依赖于输入文本的质量
-
-## 📝 开发计划
-
-- [x] 项目结构搭建
-- [x] PDF解析模块
-- [x] 知识抽取模块
-- [x] 知识融合模块
-- [x] 图谱构建模块
-- [x] 知识挖掘模块
-- [x] Web可视化界面
-- [x] 智能问答系统
-- [x] 命令行界面
-- [x] 图谱可视化（pyvis）✨ 新增
-- [x] 扩展示例问题（24个）✨ 新增
-- [x] 优化答案生成提示词 ✨ 新增
-- [x] 问答历史记录 ✨ 新增
-- [x] 数据导出功能（5种格式）✨ 新增
-- [ ] API接口开发（可选）
-
-## 📚 参考文献
-
-- GB/T38324-2019《信息科学中医语言系统语义网络框架》
-- 中医药知识图谱构建方法研究
-- 精神应激性高血压中医诊疗指南
-
-## 📄 许可证
-
-MIT License
-
-## 👥 贡献者
-
-欢迎提交Issue和Pull Request！
+访问 http://localhost:8080
 
 ---
 
-**项目状态**：✅ 已完成并运行中（v2.0 - 新增5大优化功能）
+## 📁 项目结构
 
-**最后更新**：2026-01-28
+```
+MSI-HBP-Knowledge-Graph/
+├── 📂 data/                      # 数据目录
+│   ├── 📂 raw/                  # 原始数据（文献、指南、病历）
+│   ├── 📂 processed/            # 处理后的数据
+│   │   ├── extracted_triples/   # 抽取的三元组
+│   │   ├── fused_knowledge/     # 融合后的知识
+│   │   └── merged/              # 合并去重后的数据
+│   ├── 📂 external/             # 外部数据源
+│   ├── synonyms.json            # 同义词映射
+│   └── triples.json             # 知识三元组
+├── 📂 src/                       # 源代码
+│   ├── 📂 crawler/              # 数据爬取模块
+│   ├── 📂 extraction/           # 知识抽取模块
+│   ├── 📂 fusion/               # 知识融合模块
+│   ├── 📂 qa/                   # 问答系统模块
+│   └── 📂 utils/                # 工具函数
+│       ├── config.py            # 配置管理
+│       ├── llm_client.py        # LLM客户端
+│       └── neo4j_client.py      # Neo4j客户端
+├── 📂 deploy/                    # 部署脚本
+├── 📂 lib/                       # 前端库
+├── app.py                        # Web应用主程序
+├── build_graph.py                # 知识图谱构建
+├── chat.py                       # 聊天界面
+├── merge_and_deduplicate_data.py # 数据合并去重
+├── test_internal_dataset.py      # 测试脚本
+├── requirements.txt              # Python依赖
+├── 投稿信息文档.md               # 投稿信息
+├── 测试改进方案.md               # 测试改进方案
+└── README.md                     # 项目说明
+```
 
-**Web界面**：http://localhost:8501
+---
 
-**新功能**：图谱可视化 | 扩展示例 | 优化提示词 | 历史记录 | 数据导出
+## 🏗️ 知识图谱Schema
+
+### 实体类型（24种）
+
+| 类型 | 英文 | 数量 | 说明 |
+|------|------|------|------|
+| 症状 | Symptom | 283 | 临床表现 |
+| 治则治法 | TreatmentMethod | 159 | 治疗原则和方法 |
+| 中药 | Herb | 150 | 中药材 |
+| 病机 | Pathogenesis | 129 | 病理机制 |
+| 方剂 | Formula | 124 | 中药方剂 |
+| 疾病 | Disease | 82 | 疾病名称 |
+| 其他 | Others | 106 | 其他类型 |
+
+### 关系类型（4种）
+
+| 关系 | 英文 | 数量 | 说明 |
+|------|------|------|------|
+| 治疗 | TREATS | 171 | 治疗关系 |
+| 组成 | COMPOSED_OF | 84 | 组成关系 |
+| 引起 | CAUSES | 32 | 因果关系 |
+| 使用 | USES | 25 | 使用关系 |
+
+---
+
+## 🤖 技术架构
+
+### 核心技术栈
+
+- **后端框架**: Python 3.8+
+- **图数据库**: Neo4j 5.x
+- **Web框架**: Streamlit
+- **LLM框架**: LangChain
+- **大语言模型**: Qwen2.5-7B-Instruct
+- **可视化**: Vis.js Network
+
+### 系统架构
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                     Web Interface                        │
+│                    (Streamlit)                          │
+└─────────────────────────────────────────────────────────┘
+                            │
+        ┌───────────────────┼───────────────────┐
+        │                   │                   │
+┌───────▼────────┐  ┌──────▼──────┐  ┌────────▼────────┐
+│  Knowledge     │  │   QA System  │  │  Visualization  │
+│  Extraction    │  │   (LLM+KG)   │  │   (Vis.js)      │
+└───────┬────────┘  └──────┬──────┘  └─────────────────┘
+        │                   │
+        │           ┌───────▼────────┐
+        │           │   LLM Client   │
+        │           │  (Qwen2.5-7B)  │
+        │           └────────────────┘
+        │
+┌───────▼────────────────────────────┐
+│        Neo4j Graph Database        │
+│     (Entities + Relations)         │
+└────────────────────────────────────┘
+```
+
+---
+
+## � 核心功能
+
+### 1. 智能问答系统
+
+基于知识图谱和大语言模型的智能问答：
+
+```python
+from src.qa.qa_system import QASystem
+
+qa = QASystem()
+result = qa.answer("精神应激性高血压有什么症状？")
+print(result['answer'])
+```
+
+**特点**:
+- 混合实体识别（规则+LLM）
+- 同义词归一化
+- 多跳知识推理
+- 自然语言生成
+
+### 2. 知识图谱可视化
+
+交互式知识图谱浏览：
+- 实体搜索和过滤
+- 关系类型筛选
+- 动态图布局
+- 节点详情查看
+
+### 3. 数据管理
+
+- 数据导入导出
+- 知识去重合并
+- 同义词管理
+- 数据统计分析
+
+---
+
+## 📊 测试与评估
+
+### 测试结果
+
+基于150个测试案例的评估：
+
+| 关系类型 | 准确率 | 正确/总数 |
+|---------|--------|----------|
+| 引起 | 100.0% | 15/15 |
+| 组成 | 95.0% | 38/40 |
+| 使用 | 91.7% | 11/12 |
+| 治疗 | 90.4% | 75/83 |
+| **总体** | **92.67%** | **139/150** |
+
+### 运行测试
+
+```bash
+python test_internal_dataset.py
+```
+
+详细测试报告见：[测试改进方案.md](测试改进方案.md)
+
+---
+
+## 📚 文档
+
+- [投稿信息文档](投稿信息文档.md) - LLM模型、提示词、数据清洗标准
+- [测试改进方案](测试改进方案.md) - 测试结果分析和改进建议
+- [改进总结](改进总结.md) - 项目改进总结
+- [部署文档](deploy/README.md) - 服务器部署指南
+
+---
+
+## 🚢 部署
+
+### 本地部署
+
+```bash
+# 1. 启动Neo4j
+docker run -d --name neo4j -p 7474:7474 -p 7687:7687 \
+  -e NEO4J_AUTH=neo4j/123456 neo4j:latest
+
+# 2. 构建知识图谱
+python build_graph.py
+
+# 3. 启动应用
+streamlit run app.py --server.port 8080
+```
+
+### 服务器部署
+
+详见 [deploy/README.md](deploy/README.md)
+
+---
+
+## 🤝 贡献指南
+
+欢迎贡献代码、提出问题和建议！
+
+### 贡献流程
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 提交 Pull Request
+
+### 开发规范
+
+- 遵循PEP 8代码规范
+- 添加必要的注释和文档
+- 编写单元测试
+- 更新相关文档
+
+---
+
+## 📄 许可证
+
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+
+---
+
+## � 团队
+
+- **项目负责人**: wangyu1984-SDTCM
+- **技术支持**: MSI-HBP Research Team
+
+---
+
+## � 联系方式
+
+- **GitHub Issues**: [提交问题](https://github.com/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph/issues)
+- **Email**: wangyu1984@example.com
+
+---
+
+## 🙏 致谢
+
+感谢以下开源项目：
+
+- [Neo4j](https://neo4j.com/) - 图数据库
+- [Streamlit](https://streamlit.io/) - Web框架
+- [LangChain](https://www.langchain.com/) - LLM框架
+- [Qwen](https://github.com/QwenLM/Qwen) - 大语言模型
+- [Vis.js](https://visjs.org/) - 图可视化
+
+---
+
+<div align="center">
+
+**如果这个项目对你有帮助，请给一个 ⭐️ Star！**
+
+Made with ❤️ by MSI-HBP Research Team
+
+</div>

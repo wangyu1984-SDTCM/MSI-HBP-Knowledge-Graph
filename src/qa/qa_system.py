@@ -45,13 +45,7 @@ class QASystem:
     
     def load_entities(self):
         """加载实体列表（用于实体识别）"""
-        json_file = config.PROCESSED_DATA_DIR / "merged" / "entities.json"
-        
-        if not json_file.exists():
-            json_file = config.PROCESSED_DATA_DIR / "fused_knowledge" / "msi_hbp_fused.json"
-        
-        if not json_file.exists():
-            json_file = config.PROCESSED_DATA_DIR / "extracted_triples" / "msi_hbp_triples.json"
+        json_file = config.FINAL_ENTITIES_FILE
         
         if json_file.exists():
             with open(json_file, 'r', encoding='utf-8') as f:
@@ -95,13 +89,7 @@ class QASystem:
     
     def load_knowledge_from_json(self):
         """从JSON文件加载知识（仅JSON模式需要）"""
-        json_file = config.PROCESSED_DATA_DIR / "merged" / "msi_hbp_merged.json"
-        
-        if not json_file.exists():
-            json_file = config.PROCESSED_DATA_DIR / "fused_knowledge" / "msi_hbp_fused.json"
-        
-        if not json_file.exists():
-            json_file = config.PROCESSED_DATA_DIR / "extracted_triples" / "msi_hbp_triples.json"
+        json_file = config.FINAL_GRAPH_FILE
         
         if json_file.exists():
             with open(json_file, 'r', encoding='utf-8') as f:

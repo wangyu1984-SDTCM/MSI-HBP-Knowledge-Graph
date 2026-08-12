@@ -86,18 +86,19 @@ def load_qa_system():
 
 
 @st.cache_data
+def load_graph_data():
+    """加载网站统一使用的最终知识图谱。"""
+    if not config.FINAL_GRAPH_FILE.exists():
+        return {}
+
+    with open(config.FINAL_GRAPH_FILE, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+@st.cache_data
 def load_statistics():
-    """加载统计信息（缓存）"""
-    json_file = config.PROCESSED_DATA_DIR / "fused_knowledge" / "msi_hbp_fused.json"
-    
-    if not json_file.exists():
-        json_file = config.PROCESSED_DATA_DIR / "extracted_triples" / "msi_hbp_triples.json"
-    
-    if json_file.exists():
-        with open(json_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return data.get('statistics', {})
-    return {}
+    """加载统一知识图谱的统计信息。"""
+    return load_graph_data().get('statistics', {})
 
 
 def main():
@@ -116,9 +117,17 @@ def main():
             st.markdown(f"""
             <div class="stat-box">
                 <div class="stat-number">{stats.get('total_entities', 0)}</div>
-                <div class="stat-label">实体总数</div>
+                <div class="stat-label">实体记录总数</div>
             </div>
             """, unsafe_allow_html=True)
+
+            if stats.get('total_unique_names'):
+                st.markdown(f"""
+                <div class="stat-box">
+                    <div class="stat-number">{stats.get('total_unique_names', 0)}</div>
+                    <div class="stat-label">唯一实体名称</div>
+                </div>
+                """, unsafe_allow_html=True)
             
             st.markdown(f"""
             <div class="stat-box">
@@ -293,17 +302,10 @@ def show_knowledge_page():
     st.header("📊 知识浏览")
     st.write("浏览知识图谱中的实体和关系")
     
-    # 加载数据
-    json_file = config.PROCESSED_DATA_DIR / "fused_knowledge" / "msi_hbp_fused.json"
-    if not json_file.exists():
-        json_file = config.PROCESSED_DATA_DIR / "extracted_triples" / "msi_hbp_triples.json"
-    
-    if not json_file.exists():
+    data = load_graph_data()
+    if not data:
         st.error("❌ 未找到知识文件")
         return
-    
-    with open(json_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
     
     entities = data.get('entities', [])
     triples = data.get('triples', [])
@@ -398,15 +400,24 @@ def show_statistics_page():
         return
     
     # 基本统计
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     
     with col1:
         st.subheader("📊 基本统计")
-        st.metric("实体总数", stats.get('total_entities', 0))
+        st.metric("实体记录总数", stats.get('total_entities', 0))
+
+    with col2:
+        st.subheader("📊 唯一实体")
+        st.metric("唯一实体名称", stats.get('total_unique_names', 0))
+
+    with col3:
+        st.subheader("🔗 关系统计")
         st.metric("三元组总数", stats.get('total_triples', 0))
     
-    with col2:
-        st.subheader("📈 类型分布")
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.subheader("📈 实体类型分布")
         
         # 实体类型分布
         if stats.get('entity_types'):
@@ -415,12 +426,12 @@ def show_statistics_page():
             for entity_type, count in sorted(entity_types.items(), key=lambda x: x[1], reverse=True):
                 st.write(f"- {entity_type}: {count}")
     
-    # 关系类型分布
-    if stats.get('relation_types'):
-        st.subheader("🔗 关系类型分布")
-        relation_types = stats['relation_types']
-        for relation_type, count in sorted(relation_types.items(), key=lambda x: x[1], reverse=True):
-            st.write(f"- {relation_type}: {count}")
+    with col2:
+        if stats.get('relation_types'):
+            st.subheader("🔗 关系类型分布")
+            relation_types = stats['relation_types']
+            for relation_type, count in sorted(relation_types.items(), key=lambda x: x[1], reverse=True):
+                st.write(f"- {relation_type}: {count}")
     
     # 挖掘结果
     mining_file = config.PROJECT_ROOT / "knowledge_mining_results" / "network_analysis.json"
@@ -450,17 +461,10 @@ def show_graph_visualization_page():
         st.error("❌ pyvis未安装，请运行: pip install pyvis")
         return
     
-    # 加载数据
-    json_file = config.PROCESSED_DATA_DIR / "fused_knowledge" / "msi_hbp_fused.json"
-    if not json_file.exists():
-        json_file = config.PROCESSED_DATA_DIR / "extracted_triples" / "msi_hbp_triples.json"
-    
-    if not json_file.exists():
+    data = load_graph_data()
+    if not data:
         st.error("❌ 未找到知识文件")
         return
-    
-    with open(json_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
     
     entities = {e['name']: e for e in data.get('entities', [])}
     triples = data.get('triples', [])
@@ -678,7 +682,7 @@ def show_graph_visualization_page():
         
         st.write("**步骤1：选择筛选条件**")
         st.write("- 选择要显示的实体类型（疾病、症状、病机、中药、方剂、治则治法）")
-        st.write("- 选择要显示的关系类型（治疗、引起、由...组成、使用）")
+        st.write("- 选择要显示的关系类型（治疗、引起、组成、使用）")
         st.write("- 设置最大节点数（建议50-100个）")
         
         st.write("**步骤2：选择中心实体（可选）**")
@@ -700,17 +704,10 @@ def show_export_page():
     st.header("📥 数据导出")
     st.write("导出知识图谱数据为不同格式")
     
-    # 加载数据
-    json_file = config.PROCESSED_DATA_DIR / "fused_knowledge" / "msi_hbp_fused.json"
-    if not json_file.exists():
-        json_file = config.PROCESSED_DATA_DIR / "extracted_triples" / "msi_hbp_triples.json"
-    
-    if not json_file.exists():
+    data = load_graph_data()
+    if not data:
         st.error("❌ 未找到知识文件")
         return
-    
-    with open(json_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
     
     entities = data.get('entities', [])
     triples = data.get('triples', [])

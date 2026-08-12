@@ -391,10 +391,6 @@ class Neo4jClient:
         self.close()
 
 
-# 创建全局Neo4j客户端实例
-neo4j_client = Neo4jClient()
-
-
 if __name__ == "__main__":
     # 测试Neo4j客户端
     client = Neo4jClient()

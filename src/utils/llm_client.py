@@ -31,14 +31,22 @@ class LLMClient:
         self.api_key = api_key or config.MODEL_API_KEY
         self.base_url = base_url or config.MODEL_BASE_URL
         self.model_name = model_name or config.MODEL_NAME
-        self.temperature = temperature or config.MODEL_TEMPERATURE
-        
-        self.llm = ChatOpenAI(
+        self.temperature = config.MODEL_TEMPERATURE if temperature is None else temperature
+        self.llm = None
+
+    def _get_llm(self):
+        """延迟初始化模型客户端，允许无密钥时使用非LLM功能。"""
+        if not self.api_key:
+            raise ValueError("MODEL_API_KEY未配置，智能问答和知识抽取功能不可用")
+
+        if self.llm is None:
+            self.llm = ChatOpenAI(
             api_key=self.api_key,
             base_url=self.base_url,
             model=self.model_name,
             temperature=self.temperature
-        )
+            )
+        return self.llm
     
     def chat(
         self,
@@ -74,7 +82,7 @@ class LLMClient:
                 formatted_messages.append(HumanMessage(content=content))
         
         # 调用LLM
-        response = self.llm.invoke(formatted_messages)
+        response = self._get_llm().invoke(formatted_messages)
         return response.content if hasattr(response, 'content') else str(response)
     
     def extract_json(

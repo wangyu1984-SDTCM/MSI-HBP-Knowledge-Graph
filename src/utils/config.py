@@ -19,6 +19,10 @@ class Config:
     RAW_DATA_DIR = DATA_DIR / "raw"
     PROCESSED_DATA_DIR = DATA_DIR / "processed"
     EXTERNAL_DATA_DIR = DATA_DIR / "external"
+    MERGED_DATA_DIR = PROCESSED_DATA_DIR / "merged"
+    FINAL_GRAPH_FILE = MERGED_DATA_DIR / "msi_hbp_merged.json"
+    FINAL_ENTITIES_FILE = MERGED_DATA_DIR / "entities.json"
+    FINAL_STATISTICS_FILE = MERGED_DATA_DIR / "statistics.json"
     
     # LLM配置
     MODEL_API_KEY = os.getenv("MODEL_API_KEY", "")

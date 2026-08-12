@@ -34,7 +34,7 @@ def main():
     print("✅ Neo4j连接成功！")
     
     # 读取合并后的知识图谱数据
-    merged_file = config.PROCESSED_DATA_DIR / "merged" / "msi_hbp_merged.json"
+    merged_file = config.FINAL_GRAPH_FILE
     
     if not merged_file.exists():
         print(f"\n❌ 合并数据文件不存在: {merged_file}")
@@ -84,9 +84,6 @@ def main():
     
     node_queries = []
     
-    # 特殊处理：某些实体既是症状又是疾病
-    dual_label_entities = ['失眠', '焦虑', '抑郁', '烦躁', '心悸']
-    
     for entity in tqdm(entities, desc="准备节点"):
         entity_type = entity.get('type', '未知')
         entity_name = entity.get('name', '')
@@ -94,20 +91,10 @@ def main():
         if not entity_name:
             continue
         
-        # 使用英文标签
-        label = entity_type_map.get(entity_type, entity_type)
-        
-        # 如果是双重标签实体（既是症状又是疾病）
-        if entity_name in dual_label_entities and label == 'Symptom':
-            # 添加双重标签
-            query = f"""
-            MERGE (n:Symptom:Disease {{name: $name, project: $project}})
-            """
-        else:
-            # 创建节点的Cypher语句
-            query = f"""
-            MERGE (n:{label} {{name: $name, project: $project}})
-            """
+        label = entity_type_map.get(entity_type, entity_type).replace('`', '')
+        query = f"""
+        MERGE (n:`{label}` {{name: $name, project: $project}})
+        """
         
         params = {
             'name': entity_name,
@@ -129,17 +116,20 @@ def main():
         subject = relation.get('subject', '')
         predicate = relation.get('predicate', '')
         obj = relation.get('object', '')
+        subject_type = relation.get('subject_type', '')
+        object_type = relation.get('object_type', '')
         
-        if not (subject and predicate and obj):
+        if not (subject and predicate and obj and subject_type and object_type):
             continue
         
         # 清理关系类型（Neo4j不允许某些字符）
         predicate_clean = predicate.replace('...', '_').replace('.', '_').replace(' ', '_')
+        subject_label = entity_type_map.get(subject_type, subject_type).replace('`', '')
+        object_label = entity_type_map.get(object_type, object_type).replace('`', '')
         
-        # 创建关系的Cypher语句 - 只用名称匹配，不用类型（避免类型不匹配问题）
         query = f"""
-        MATCH (a {{name: $subject, project: $project}})
-        MATCH (b {{name: $object, project: $project}})
+        MATCH (a:`{subject_label}` {{name: $subject, project: $project}})
+        MATCH (b:`{object_label}` {{name: $object, project: $project}})
         MERGE (a)-[r:`{predicate_clean}`]->(b)
         """
         

@@ -312,12 +312,8 @@ if __name__ == "__main__":
     # 测试知识挖掘
     mining = KnowledgeMining()
     
-    # 使用融合后的知识
-    input_file = config.PROCESSED_DATA_DIR / "fused_knowledge" / "msi_hbp_fused.json"
+    # 使用重分类、去重后的最终知识图谱
+    input_file = config.FINAL_GRAPH_FILE
     output_dir = config.PROJECT_ROOT / "knowledge_mining_results"
-    
-    # 如果融合文件不存在，使用原始抽取结果
-    if not input_file.exists():
-        input_file = config.PROCESSED_DATA_DIR / "extracted_triples" / "msi_hbp_triples.json"
     
     result = mining.mine_knowledge(str(input_file), str(output_dir))

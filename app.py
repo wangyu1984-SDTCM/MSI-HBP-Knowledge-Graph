@@ -466,8 +466,26 @@ def show_graph_visualization_page():
         st.error("❌ 未找到知识文件")
         return
     
-    entities = {e['name']: e for e in data.get('entities', [])}
     triples = data.get('triples', [])
+    connected_entity_types = sorted({
+        entity_type
+        for triple in triples
+        for entity_type in (triple.get('subject_type'), triple.get('object_type'))
+        if entity_type
+    })
+    relation_types = sorted({t.get('relation', '') for t in triples if t.get('relation')})
+
+    connected_entities = []
+    seen_entities = set()
+    for triple in triples:
+        for name_key, type_key in (
+            ('subject', 'subject_type'),
+            ('object', 'object_type'),
+        ):
+            entity_key = (triple.get(name_key, ''), triple.get(type_key, ''))
+            if all(entity_key) and entity_key not in seen_entities:
+                seen_entities.add(entity_key)
+                connected_entities.append(entity_key)
     
     # 可视化选项
     if not st.session_state.fullscreen_mode:
@@ -477,16 +495,15 @@ def show_graph_visualization_page():
         
         with col1:
             # 实体类型筛选
-            entity_types = list(set([e['type'] for e in entities.values()]))
             selected_types = st.multiselect(
                 "选择实体类型",
-                entity_types,
-                default=entity_types[:3] if len(entity_types) > 3 else entity_types
+                connected_entity_types,
+                default=connected_entity_types,
+                help="三元组两端的实体类型都必须被选中"
             )
         
         with col2:
             # 关系类型筛选
-            relation_types = list(set([t['relation'] for t in triples]))
             selected_relations = st.multiselect(
                 "选择关系类型",
                 relation_types,
@@ -500,8 +517,9 @@ def show_graph_visualization_page():
         # 中心实体选择
         center_entity = st.selectbox(
             "选择中心实体（可选）",
-            ["无"] + list(entities.keys())[:100],
-            help="选择一个实体作为中心，显示其周围的关系"
+            [None] + connected_entities,
+            format_func=lambda entity: "无" if entity is None else f"{entity[0]}（{entity[1]}）",
+            help="选择一个实体及其类型作为中心，显示其周围的关系"
         )
         
         # 生成按钮和全屏按钮
@@ -517,14 +535,14 @@ def show_graph_visualization_page():
             selected_relations = st.session_state.last_settings['selected_relations']
             max_nodes = st.session_state.last_settings['max_nodes']
             center_entity = st.session_state.last_settings['center_entity']
+            if center_entity == "无":
+                center_entity = None
         else:
             # 默认设置
-            entity_types = list(set([e['type'] for e in entities.values()]))
-            selected_types = entity_types[:3] if len(entity_types) > 3 else entity_types
-            relation_types = list(set([t['relation'] for t in triples]))
+            selected_types = connected_entity_types
             selected_relations = relation_types
             max_nodes = 50
-            center_entity = "无"
+            center_entity = None
         
         generate_button = True
         fullscreen_button = False
@@ -558,15 +576,22 @@ def show_graph_visualization_page():
             filtered_triples = [
                 t for t in triples
                 if t['relation'] in selected_relations
-                and entities.get(t['subject'], {}).get('type') in selected_types
-                and entities.get(t['object'], {}).get('type') in selected_types
+                and t.get('subject_type') in selected_types
+                and t.get('object_type') in selected_types
             ]
             
             # 如果选择了中心实体，只显示相关的三元组
-            if center_entity != "无":
+            if center_entity is not None:
+                center_name, center_type = center_entity
                 filtered_triples = [
                     t for t in filtered_triples
-                    if t['subject'] == center_entity or t['object'] == center_entity
+                    if (
+                        t['subject'] == center_name
+                        and t.get('subject_type') == center_type
+                    ) or (
+                        t['object'] == center_name
+                        and t.get('object_type') == center_type
+                    )
                 ]
             
             # 限制数量
@@ -574,6 +599,13 @@ def show_graph_visualization_page():
             
             if not filtered_triples:
                 st.warning("⚠️ 没有符合条件的三元组")
+                valid_pairs = sorted({
+                    f"{t.get('subject_type', '未知')} → {t.get('object_type', '未知')}"
+                    for t in triples
+                    if t.get('relation') in selected_relations
+                })
+                if valid_pairs:
+                    st.caption("当前关系可用的类型组合：" + "；".join(valid_pairs))
                 return
             
             # 创建网络图
@@ -587,7 +619,8 @@ def show_graph_visualization_page():
                 '病机': '#9b59b6',
                 '中药': '#27ae60',
                 '方剂': '#3498db',
-                '治则治法': '#1abc9c'
+                '治则治法': '#1abc9c',
+                '病因病机': '#8e44ad'
             }
             
             # 添加节点和边
@@ -596,23 +629,25 @@ def show_graph_visualization_page():
                 subject = triple['subject']
                 obj = triple['object']
                 relation = triple['relation']
+                subject_type = triple.get('subject_type', '未知')
+                obj_type = triple.get('object_type', '未知')
+                subject_id = f"{subject_type}::{subject}"
+                object_id = f"{obj_type}::{obj}"
                 
                 # 添加主体节点
-                if subject not in added_nodes:
-                    subject_type = entities.get(subject, {}).get('type', '未知')
+                if subject_id not in added_nodes:
                     color = type_colors.get(subject_type, '#95a5a6')
-                    net.add_node(subject, label=subject, color=color, title=f"{subject}\n类型: {subject_type}")
-                    added_nodes.add(subject)
+                    net.add_node(subject_id, label=subject, color=color, title=f"{subject}\n类型: {subject_type}")
+                    added_nodes.add(subject_id)
                 
                 # 添加客体节点
-                if obj not in added_nodes:
-                    obj_type = entities.get(obj, {}).get('type', '未知')
+                if object_id not in added_nodes:
                     color = type_colors.get(obj_type, '#95a5a6')
-                    net.add_node(obj, label=obj, color=color, title=f"{obj}\n类型: {obj_type}")
-                    added_nodes.add(obj)
+                    net.add_node(object_id, label=obj, color=color, title=f"{obj}\n类型: {obj_type}")
+                    added_nodes.add(object_id)
                 
                 # 添加边
-                net.add_edge(subject, obj, label=relation, title=relation)
+                net.add_edge(subject_id, object_id, label=relation, title=relation)
             
             # 设置物理引擎
             net.set_options("""

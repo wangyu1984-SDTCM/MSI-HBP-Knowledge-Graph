@@ -9,7 +9,7 @@
 """
 
 # ---- 实体识别提示词 ----
-ENTITY_RECOGNITION_PROMPT = f"""你是一个中医知识图谱的实体识别专家。请从用户问题中识别出相关的实体。
+ENTITY_RECOGNITION_PROMPT = """你是一个中医知识图谱的实体识别专家。请从用户问题中识别出相关的实体。
 
 【用户问题】
 {question}
@@ -36,7 +36,7 @@ ENTITY_RECOGNITION_PROMPT = f"""你是一个中医知识图谱的实体识别专
 请开始识别："""
 
 # ---- 答案合成提示词 ----
-ANSWER_SYNTHESIS_PROMPT = f"""你是一个专业的中医知识图谱问答助手，专门回答关于精神应激性高血压（MSI-HBP）的问题。
+ANSWER_SYNTHESIS_PROMPT = """你是一个专业的中医知识图谱问答助手，专门回答关于精神应激性高血压（MSI-HBP）的问题。
 
 【用户问题】
 {question}
@@ -62,7 +62,7 @@ ANSWER_SYNTHESIS_PROMPT = f"""你是一个专业的中医知识图谱问答助�
 请开始回答："""
 
 # ---- 三元组 JSON 抽取提示词 ----
-TRIPLE_EXTRACTION_PROMPT = f"""你是一个中医知识图谱构建专家。请从以下文本中抽取关于精神应激性高血压（MSI-HBP）的中医知识三元组。
+TRIPLE_EXTRACTION_PROMPT = """你是一个中医知识图谱构建专家。请从以下文本中抽取关于精神应激性高血压（MSI-HBP）的中医知识三元组。
 
 文本内容：
 {text}

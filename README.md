@@ -1,4 +1,6 @@
-# MSI-HBP 精神应激性高血压中医知识图谱
+# HTN-EC 高血压合并情志障碍中医知识图谱
+
+<sub>Repository identifier: MSI-HBP-Knowledge-Graph (retained from the original release)</sub>
 
 <div align="center">
 
@@ -7,17 +9,23 @@
 ![GitHub issues](https://img.shields.io/github/issues/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-**精神应激性高血压中医知识图谱系统**
+**高血压合并情志障碍中医知识图谱与问答系统**
 
-[English](README_EN.md) | 简体中文
+*TCM Knowledge Graph for Hypertension with Emotional Comorbidity (HTN-EC)*
+
+简体中文
 
 </div>
 
 ---
 
-## � 项目简介
+## 项目简介
 
-本项目构建了**精神应激性高血压（Mental Stress-Induced Hypertension, MSI-HBP）**的中医知识图谱，整合中医理论、临床经验和现代研究成果，为中医药治疗精神应激性高血压提供智能化知识支持。
+本项目构建了**高血压合并情志障碍（Hypertension with Emotional Comorbidity, HTN-EC）**的中医知识图谱与问答系统，语料为 419 条中文文献题录（题名、关键词、摘要），采用大模型辅助抽取加专家策展的方式构建。
+
+**关于命名**：本项目最初以「精神应激性高血压（MSI-HBP）」立项，仓库标识 `MSI-HBP-Knowledge-Graph` 予以保留。对语料的主题标注显示，419 条记录中 417 条（99.5%）涉及高血压合并焦虑、抑郁或失眠，仅 2 条（0.5%）提及精神应激；检索式本身为「高血压」合并「焦虑」，未包含应激相关词。因此本项目改用与证据基础相符的「高血压合并情志障碍」表述，精神应激性高血压作为该范畴内证据尚不充分的亚型。详见论文 Introduction 与 Methods。
+
+**当前定位**：早期文献导航原型。独立评估（73 道外部专家命题、双盲评分）显示，在论文所述配置下系统完整答对 12% 的临床问题、方向正确 48%。本系统不支持临床决策，请勿用于诊疗。评估材料见 `evaluation/` 目录。
 
 ### ✨ 核心特性
 
@@ -111,7 +119,7 @@ streamlit run app.py
 ## 📁 项目结构
 
 ```
-MSI-HBP-Knowledge-Graph/
+MSI-HBP-Knowledge-Graph/   # 仓库标识保留原名
 ├── 📂 data/                      # 数据目录
 │   ├── 📂 raw/                  # 原始数据（文献、指南、病历）
 │   ├── 📂 processed/            # 处理后的数据
@@ -221,7 +229,7 @@ MSI-HBP-Knowledge-Graph/
 from src.qa.qa_system import QASystem
 
 qa = QASystem()
-result = qa.answer("精神应激性高血压有什么症状？")
+result = qa.answer("天麻钩藤饮由哪些中药组成？")
 print(result['answer'])
 ```
 
@@ -327,13 +335,13 @@ streamlit run app.py --server.port 8080
 ## � 团队
 
 - **项目负责人**: wangyu1984-SDTCM
-- **技术支持**: MSI-HBP Research Team
+- **技术支持**: HTN-EC-KG Research Team
 
 ---
 
 ## � 联系方式
 
-- **GitHub Issues**: [提交问题](https://github.com/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph/issues)
+- **GitHub Issues**: [提交问题](https://github.com/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph/   # 仓库标识保留原名issues)
 - **Email**: wangyu1984@example.com
 
 ---
@@ -354,6 +362,6 @@ streamlit run app.py --server.port 8080
 
 **如果这个项目对你有帮助，请给一个 ⭐️ Star！**
 
-Made with ❤️ by MSI-HBP Research Team
+Made with ❤️ by HTN-EC-KG Research Team
 
 </div>

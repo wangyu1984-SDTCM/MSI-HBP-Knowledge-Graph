@@ -1,0 +1,52 @@
+{
+  "round1_three_conditions": {
+    "complete_system": {
+      "correct": 5,
+      "partially_correct": 24,
+      "incorrect": 36,
+      "abstained": 8,
+      "response_rate": 89,
+      "strict_accuracy": 7,
+      "directional_accuracy": 40
+    },
+    "llm_only": {
+      "correct": 0,
+      "partially_correct": 13,
+      "incorrect": 60,
+      "abstained": 0,
+      "response_rate": 100,
+      "strict_accuracy": 0,
+      "directional_accuracy": 18
+    },
+    "retrieval_only": {
+      "correct": 0,
+      "partially_correct": 5,
+      "incorrect": 60,
+      "abstained": 8,
+      "response_rate": 89,
+      "strict_accuracy": 0,
+      "directional_accuracy": 7
+    }
+  },
+  "round3_model_comparison": {
+    "DeepSeek": {
+      "correct": 26,
+      "partially_correct": 33,
+      "incorrect": 2,
+      "abstained": 12,
+      "response_rate": 84,
+      "strict_accuracy": 36,
+      "directional_accuracy": 81
+    },
+    "Qwen": {
+      "correct": 9,
+      "partially_correct": 26,
+      "incorrect": 30,
+      "abstained": 8,
+      "response_rate": 89,
+      "strict_accuracy": 12,
+      "directional_accuracy": 48
+    }
+  },
+  "note": "Round 1 was executed without an output token limit; Round 3 with a 6,000-token limit. The complete system with Qwen2.5-7B-Instruct therefore appears at 40% directional accuracy in Round 1 and 48% in Round 3; the difference reflects the token-limit correction. Retrieval-strategy ablation (configurations D1-D4) is reported in Table 4 of the manuscript."
+}

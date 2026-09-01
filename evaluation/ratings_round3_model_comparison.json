@@ -1,0 +1,1316 @@
+[
+  {
+    "id": "Q001",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q001",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q002",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q002",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q003",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q003",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q004",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q004",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q005",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q005",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q006",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q006",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q007",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q007",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q008",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q008",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q009",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q009",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q010",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q010",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q011",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q011",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q012",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": true
+  },
+  {
+    "id": "Q012",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q013",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q013",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q014",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q014",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q015",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q015",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q016",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q016",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q017",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q017",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q018",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q018",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q019",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "partially_correct",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q019",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q020",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q020",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q021",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q021",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q022",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q022",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q023",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q023",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q024",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q024",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "partially_correct",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q025",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q025",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q026",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q026",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q027",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q027",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q028",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q028",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q029",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q029",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q030",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q030",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q031",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q031",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q032",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q032",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q033",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q033",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q034",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q034",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q035",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q035",
+    "model": "DeepSeek",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q036",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q036",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q037",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q037",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q038",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q038",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q039",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q039",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q040",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q040",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q041",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q041",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q042",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q042",
+    "model": "DeepSeek",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q043",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q043",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q044",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q044",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q045",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q045",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q046",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q046",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q047",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q047",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q048",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q048",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q049",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q049",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q050",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q050",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q051",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q051",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q052",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q052",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q053",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q053",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q054",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q054",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q055",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q055",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q056",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q056",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q057",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q057",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q058",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q058",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q059",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q059",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q060",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q060",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q061",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q061",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q062",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q062",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q063",
+    "model": "Qwen",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q063",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q064",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q064",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q065",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q065",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q066",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q066",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q067",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q067",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q068",
+    "model": "Qwen",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q068",
+    "model": "DeepSeek",
+    "rater1": "abstained",
+    "rater2": "partially_correct",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q069",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q069",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q070",
+    "model": "DeepSeek",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q070",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q071",
+    "model": "Qwen",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q071",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q072",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q072",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q073",
+    "model": "Qwen",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q073",
+    "model": "DeepSeek",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  }
+]

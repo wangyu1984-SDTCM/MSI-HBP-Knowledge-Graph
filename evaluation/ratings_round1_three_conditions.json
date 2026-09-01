@@ -1,0 +1,1973 @@
+[
+  {
+    "id": "Q001",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q001",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q001",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q002",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q002",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q002",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q003",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q003",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q003",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q004",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q004",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q004",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q005",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q005",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q005",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q006",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q006",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q006",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q007",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q007",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q007",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q008",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q008",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q008",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q009",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q009",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q009",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q010",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q010",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q010",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q011",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q011",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q011",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q012",
+    "condition": "complete_system",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": true
+  },
+  {
+    "id": "Q012",
+    "condition": "retrieval_only",
+    "rater1": "correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": true
+  },
+  {
+    "id": "Q012",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q013",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q013",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q013",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q014",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q014",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q014",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q015",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q015",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q015",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q016",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q016",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q016",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q017",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q017",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q017",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q018",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q018",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q018",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q019",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q019",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q019",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q020",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q020",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q020",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q021",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q021",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q021",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q022",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q022",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q022",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q023",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q023",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q023",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q024",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q024",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q024",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q025",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q025",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q025",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q026",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q026",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q026",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q027",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q027",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q027",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q028",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q028",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q028",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q029",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q029",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q029",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q030",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q030",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q030",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q031",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q031",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q031",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q032",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q032",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q032",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q033",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q033",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q033",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q034",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q034",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q034",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q035",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q035",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q035",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q036",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q036",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q036",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q037",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q037",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q037",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q038",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q038",
+    "condition": "retrieval_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q038",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q039",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q039",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q039",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q040",
+    "condition": "complete_system",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q040",
+    "condition": "retrieval_only",
+    "rater1": "correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q040",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q041",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q041",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q041",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q042",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q042",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q042",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q043",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q043",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q043",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q044",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q044",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q044",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q045",
+    "condition": "complete_system",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q045",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q045",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q046",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q046",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q046",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q047",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q047",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q047",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q048",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q048",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q048",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q049",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q049",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q049",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q050",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q050",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q050",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q051",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q051",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q051",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q052",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q052",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q052",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q053",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q053",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q053",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q054",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q054",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q054",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q055",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q055",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q055",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q056",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q056",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q056",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q057",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q057",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q057",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q058",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q058",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q058",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q059",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": true,
+    "safety_flag": false
+  },
+  {
+    "id": "Q059",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q059",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q060",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q060",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q060",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q061",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q061",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q061",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q062",
+    "condition": "complete_system",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q062",
+    "condition": "retrieval_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q062",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q063",
+    "condition": "complete_system",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q063",
+    "condition": "retrieval_only",
+    "rater1": "abstained",
+    "rater2": "abstained",
+    "consensus": "abstained",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q063",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q064",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q064",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q064",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q065",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q065",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q065",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q066",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q066",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q066",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q067",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q067",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q067",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q068",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q068",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q068",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q069",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q069",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q069",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q070",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q070",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q070",
+    "condition": "llm_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q071",
+    "condition": "complete_system",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q071",
+    "condition": "retrieval_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q071",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q072",
+    "condition": "complete_system",
+    "rater1": "partially_correct",
+    "rater2": "partially_correct",
+    "consensus": "partially_correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q072",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q072",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q073",
+    "condition": "complete_system",
+    "rater1": "correct",
+    "rater2": "correct",
+    "consensus": "correct",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q073",
+    "condition": "retrieval_only",
+    "rater1": "incorrect",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  },
+  {
+    "id": "Q073",
+    "condition": "llm_only",
+    "rater1": "partially_correct",
+    "rater2": "incorrect",
+    "consensus": "incorrect",
+    "fabrication": false,
+    "safety_flag": false
+  }
+]

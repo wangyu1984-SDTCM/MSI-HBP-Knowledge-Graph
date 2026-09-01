@@ -341,7 +341,7 @@ streamlit run app.py --server.port 8080
 
 ## � 联系方式
 
-- **GitHub Issues**: [提交问题](https://github.com/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph/   # 仓库标识保留原名issues)
+- **GitHub Issues**: [提交问题](https://github.com/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph/issues)
 - **Email**: wangyu1984@example.com
 
 ---

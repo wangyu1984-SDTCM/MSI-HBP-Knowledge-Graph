@@ -131,12 +131,16 @@ def main():
         MATCH (a:`{subject_label}` {{name: $subject, project: $project}})
         MATCH (b:`{object_label}` {{name: $object, project: $project}})
         MERGE (a)-[r:`{predicate_clean}`]->(b)
+        SET r.source = $source
+        SET r.evidence_level = $evidence_level
         """
-        
+
         params = {
             'subject': subject,
             'object': obj,
-            'project': config.PROJECT_NAME
+            'project': config.PROJECT_NAME,
+            'source': relation.get('source', ''),
+            'evidence_level': relation.get('evidence_level', '')
         }
         
         relation_queries.append((query, params))

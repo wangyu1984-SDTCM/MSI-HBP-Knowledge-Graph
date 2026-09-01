@@ -53,12 +53,30 @@ class QASystem:
             
             # 如果是entities.json，直接是列表
             if isinstance(data, list):
-                self.entities = {e['name']: e for e in data}
+                entity_records = data
             else:
                 # 如果是完整的知识图谱文件
-                self.entities = {e['name']: e for e in data.get('entities', [])}
-            
-            print(f"✅ 已加载 {len(self.entities)} 个实体用于识别")
+                entity_records = data.get('entities', [])
+
+            # 实体索引层：按名称归并，支持多角色实体（同一术语对应多种本体类型）
+            self.entities = {}
+            for record in entity_records:
+                name = record.get('name', '')
+                if not name:
+                    continue
+                if name in self.entities:
+                    types = self.entities[name].get('types', [])
+                    entity_type = record.get('type', '')
+                    if entity_type and entity_type not in types:
+                        types.append(entity_type)
+                else:
+                    self.entities[name] = {
+                        'name': name,
+                        'type': record.get('type', ''),
+                        'types': [record.get('type', '')]
+                    }
+
+            print(f"✅ 已加载 {len(self.entities)} 个唯一术语用于识别（{len(entity_records)} 条术语-类型赋值）")
         else:
             print("❌ 未找到实体文件")
             self.entities = {}
@@ -324,7 +342,8 @@ class QASystem:
                         'relation': triple.get('relation', ''),
                         'object': triple.get('object', ''),
                         'subject_type': self.entities.get(triple.get('subject', ''), {}).get('type', ''),
-                        'object_type': self.entities.get(triple.get('object', ''), {}).get('type', '')
+                        'object_type': self.entities.get(triple.get('object', ''), {}).get('type', ''),
+                        'evidence_level': triple.get('evidence_level', '')
                     })
         
         return results
@@ -346,7 +365,9 @@ class QASystem:
         # 构建知识上下文
         knowledge_text = "相关知识：\n"
         for i, item in enumerate(knowledge[:15], 1):  # 限制15条
-            knowledge_text += f"{i}. {item['subject']} -[{item['relation']}]-> {item['object']}\n"
+            evidence = item.get('evidence_level', '')
+            evidence_note = f"（证据等级{evidence}级）" if evidence else ""
+            knowledge_text += f"{i}. {item['subject']} -[{item['relation']}]-> {item['object']}{evidence_note}\n"
         
         # 优化的提示词
         prompt = f"""你是一个专业的中医知识图谱问答助手，专门回答关于精神应激性高血压（MSI-HBP）的问题。

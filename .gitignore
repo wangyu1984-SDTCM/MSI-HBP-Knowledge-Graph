@@ -70,3 +70,26 @@ models/
 # Excel temporary files
 ~$*.xlsx
 ~$*.xls
+
+# Word temporary files
+~$*.docx
+~$*.doc
+
+# 报告修订工作残留（临时脚本与抽取文本，不随仓库发布）
+技术报告*.doc*
+技术报告_抽取文本.txt
+MSI-HBP-KG_*抽取文本.txt
+MSI-HBP*测试报告*.docx
+report_original_format_revised*
+_revised_second_part.txt
+_start_marker.txt
+_revision_report_extract.txt
+insert_*.ps1
+replace_*.ps1
+extract_test_report.py
+revise_test_report.py
+build_report_review_doc.py
+build_full_revised_report.py
+make_replace_script.py
+_docx_render_review/
+_test_report_render/

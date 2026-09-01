@@ -39,6 +39,11 @@
       "引起": 32,
       "治疗": 171,
       "组成": 84
+    },
+    "evidence_levels": {
+      "B": 84,
+      "C": 57,
+      "A": 171
     }
   },
   "entities": [
@@ -4038,7 +4043,8 @@
       "predicate": "组成",
       "object": "柴胡",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -4046,7 +4052,8 @@
       "predicate": "组成",
       "object": "陈皮",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -4054,7 +4061,8 @@
       "predicate": "组成",
       "object": "川芎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -4062,7 +4070,8 @@
       "predicate": "组成",
       "object": "香附",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -4070,7 +4079,8 @@
       "predicate": "组成",
       "object": "枳壳",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -4078,7 +4088,8 @@
       "predicate": "组成",
       "object": "白芍",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -4086,7 +4097,8 @@
       "predicate": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4094,7 +4106,8 @@
       "predicate": "组成",
       "object": "柴胡",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4102,7 +4115,8 @@
       "predicate": "组成",
       "object": "龙骨",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4110,7 +4124,8 @@
       "predicate": "组成",
       "object": "牡蛎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4118,7 +4133,8 @@
       "predicate": "组成",
       "object": "黄芩",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4126,7 +4142,8 @@
       "predicate": "组成",
       "object": "生姜",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4134,7 +4151,8 @@
       "predicate": "组成",
       "object": "铅丹",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4142,7 +4160,8 @@
       "predicate": "组成",
       "object": "人参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4150,7 +4169,8 @@
       "predicate": "组成",
       "object": "桂枝",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4158,7 +4178,8 @@
       "predicate": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4166,7 +4187,8 @@
       "predicate": "组成",
       "object": "半夏",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4174,7 +4196,8 @@
       "predicate": "组成",
       "object": "大黄",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -4182,7 +4205,8 @@
       "predicate": "组成",
       "object": "大枣",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -4190,7 +4214,8 @@
       "predicate": "组成",
       "object": "人参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -4198,7 +4223,8 @@
       "predicate": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -4206,7 +4232,8 @@
       "predicate": "组成",
       "object": "茯神",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -4214,7 +4241,8 @@
       "predicate": "组成",
       "object": "远志",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -4222,7 +4250,8 @@
       "predicate": "组成",
       "object": "石菖蒲",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -4230,7 +4259,8 @@
       "predicate": "组成",
       "object": "龙齿",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4238,7 +4268,8 @@
       "predicate": "组成",
       "object": "白术",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4246,7 +4277,8 @@
       "predicate": "组成",
       "object": "茯神",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4254,7 +4286,8 @@
       "predicate": "组成",
       "object": "黄芪",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4262,7 +4295,8 @@
       "predicate": "组成",
       "object": "龙眼肉",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4270,7 +4304,8 @@
       "predicate": "组成",
       "object": "酸枣仁",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4278,7 +4313,8 @@
       "predicate": "组成",
       "object": "人参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4286,7 +4322,8 @@
       "predicate": "组成",
       "object": "木香",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4294,7 +4331,8 @@
       "predicate": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4302,7 +4340,8 @@
       "predicate": "组成",
       "object": "当归",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -4310,7 +4349,8 @@
       "predicate": "组成",
       "object": "远志",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4318,7 +4358,8 @@
       "predicate": "组成",
       "object": "半夏",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4326,7 +4367,8 @@
       "predicate": "组成",
       "object": "白术",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4334,7 +4376,8 @@
       "predicate": "组成",
       "object": "天麻",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4342,7 +4385,8 @@
       "predicate": "组成",
       "object": "陈皮",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4350,7 +4394,8 @@
       "predicate": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4358,7 +4403,8 @@
       "predicate": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4366,7 +4412,8 @@
       "predicate": "组成",
       "object": "生姜",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -4374,7 +4421,8 @@
       "predicate": "组成",
       "object": "大枣",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -4382,7 +4430,8 @@
       "predicate": "组成",
       "object": "酸枣仁",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -4390,7 +4439,8 @@
       "predicate": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -4398,7 +4448,8 @@
       "predicate": "组成",
       "object": "知母",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -4406,7 +4457,8 @@
       "predicate": "组成",
       "object": "川芎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -4414,7 +4466,8 @@
       "predicate": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4422,7 +4475,8 @@
       "predicate": "组成",
       "object": "天麻",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4430,7 +4484,8 @@
       "predicate": "组成",
       "object": "钩藤",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4438,7 +4493,8 @@
       "predicate": "组成",
       "object": "石决明",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4446,7 +4502,8 @@
       "predicate": "组成",
       "object": "栀子",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4454,7 +4511,8 @@
       "predicate": "组成",
       "object": "黄芩",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4462,7 +4520,8 @@
       "predicate": "组成",
       "object": "川牛膝",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4470,7 +4529,8 @@
       "predicate": "组成",
       "object": "杜仲",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4478,7 +4538,8 @@
       "predicate": "组成",
       "object": "益母草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4486,7 +4547,8 @@
       "predicate": "组成",
       "object": "桑寄生",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4494,7 +4556,8 @@
       "predicate": "组成",
       "object": "夜交藤",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -4502,7 +4565,8 @@
       "predicate": "组成",
       "object": "茯神",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4510,7 +4574,8 @@
       "predicate": "组成",
       "object": "怀牛膝",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4518,7 +4583,8 @@
       "predicate": "组成",
       "object": "代赭石",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4526,7 +4592,8 @@
       "predicate": "组成",
       "object": "龙骨",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4534,7 +4601,8 @@
       "predicate": "组成",
       "object": "牡蛎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4542,7 +4610,8 @@
       "predicate": "组成",
       "object": "龟板",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4550,7 +4619,8 @@
       "predicate": "组成",
       "object": "白芍",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4558,7 +4628,8 @@
       "predicate": "组成",
       "object": "玄参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4566,7 +4637,8 @@
       "predicate": "组成",
       "object": "天冬",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4574,7 +4646,8 @@
       "predicate": "组成",
       "object": "川楝子",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4582,7 +4655,8 @@
       "predicate": "组成",
       "object": "茵陈",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -4590,7 +4664,8 @@
       "predicate": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4598,7 +4673,8 @@
       "predicate": "组成",
       "object": "柴胡",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4606,7 +4682,8 @@
       "predicate": "组成",
       "object": "当归",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4614,7 +4691,8 @@
       "predicate": "组成",
       "object": "白芍",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4622,7 +4700,8 @@
       "predicate": "组成",
       "object": "白术",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4630,7 +4709,8 @@
       "predicate": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4638,7 +4718,8 @@
       "predicate": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4646,7 +4727,8 @@
       "predicate": "组成",
       "object": "薄荷",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -4654,7 +4736,8 @@
       "predicate": "组成",
       "object": "生姜",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -4662,7 +4745,8 @@
       "predicate": "组成",
       "object": "半夏",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -4670,7 +4754,8 @@
       "predicate": "组成",
       "object": "陈皮",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -4678,7 +4763,8 @@
       "predicate": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -4686,7 +4772,8 @@
       "predicate": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -4694,7 +4781,8 @@
       "predicate": "组成",
       "object": "竹茹",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -4702,7 +4790,8 @@
       "predicate": "组成",
       "object": "枳实",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "宁心安神",
@@ -4710,7 +4799,8 @@
       "predicate": "使用",
       "object": "安神定志丸",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "宁心安神",
@@ -4718,7 +4808,8 @@
       "predicate": "使用",
       "object": "安心汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "宁心安神",
@@ -4726,7 +4817,8 @@
       "predicate": "使用",
       "object": "安寐颗粒",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "宁心安神",
@@ -4734,7 +4826,8 @@
       "predicate": "使用",
       "object": "酸枣仁汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "健脾化痰",
@@ -4742,7 +4835,8 @@
       "predicate": "使用",
       "object": "半夏白术天麻汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "健脾化痰",
@@ -4750,7 +4844,8 @@
       "predicate": "使用",
       "object": "温胆汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "健脾化痰",
@@ -4758,7 +4853,8 @@
       "predicate": "使用",
       "object": "归脾汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "滋阴降火",
@@ -4766,7 +4862,8 @@
       "predicate": "使用",
       "object": "补肾解郁汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "滋阴降火",
@@ -4774,7 +4871,8 @@
       "predicate": "使用",
       "object": "补肾益脑丸",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -4782,7 +4880,8 @@
       "predicate": "使用",
       "object": "柴胡疏肝散",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -4790,7 +4889,8 @@
       "predicate": "使用",
       "object": "逍遥散",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -4798,7 +4898,8 @@
       "predicate": "使用",
       "object": "丹栀逍遥散",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -4806,7 +4907,8 @@
       "predicate": "使用",
       "object": "解郁平肝汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -4814,7 +4916,8 @@
       "predicate": "使用",
       "object": "舒肝解郁胶囊",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "活血化瘀",
@@ -4822,7 +4925,8 @@
       "predicate": "使用",
       "object": "补肾涤痰化瘀汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "平肝潜阳",
@@ -4830,7 +4934,8 @@
       "predicate": "使用",
       "object": "天麻钩藤饮",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "平肝潜阳",
@@ -4838,7 +4943,8 @@
       "predicate": "使用",
       "object": "镇肝熄风汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "交通心肾",
@@ -4846,7 +4952,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "交通心肾",
@@ -4854,7 +4961,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "交通心肾",
@@ -4862,7 +4970,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "交通心肾",
@@ -4870,7 +4979,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -4878,7 +4988,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况"
+      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -4886,7 +4997,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况"
+      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -4894,7 +5006,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -4902,7 +5015,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -4910,7 +5024,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -4918,7 +5033,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -4926,7 +5042,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -4934,7 +5051,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -4942,7 +5060,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -4950,7 +5069,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -4958,7 +5078,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -4966,7 +5087,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安神定志丸",
@@ -4974,7 +5096,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "安神定志丸",
@@ -4982,7 +5105,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -4990,7 +5114,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -4998,7 +5123,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "安心汤",
@@ -5006,7 +5132,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察"
+      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "安心汤",
@@ -5014,7 +5141,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察"
+      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "安心汤",
@@ -5022,7 +5150,8 @@
       "predicate": "治疗",
       "object": "气虚",
       "object_type": "病机",
-      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察"
+      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -5030,7 +5159,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察"
+      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -5038,7 +5168,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察"
+      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -5046,7 +5177,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察"
+      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -5054,7 +5186,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -5062,7 +5195,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -5070,7 +5204,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -5078,7 +5213,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -5086,7 +5222,8 @@
       "predicate": "治疗",
       "object": "痰湿",
       "object_type": "病因病机",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -5094,7 +5231,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -5102,7 +5240,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -5110,7 +5249,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -5118,7 +5258,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -5126,7 +5267,8 @@
       "predicate": "治疗",
       "object": "痰湿",
       "object_type": "病因病机",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -5134,7 +5276,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -5142,7 +5285,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -5150,7 +5294,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -5158,7 +5303,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -5166,7 +5312,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -5174,7 +5321,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -5182,7 +5330,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -5190,7 +5339,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -5198,7 +5348,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -5206,7 +5357,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -5214,7 +5366,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -5222,7 +5375,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -5230,7 +5384,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -5238,7 +5393,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -5246,7 +5402,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "牡蛎",
@@ -5254,7 +5411,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "牡蛎",
@@ -5262,7 +5420,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "牡蛎",
@@ -5270,7 +5429,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "龙骨",
@@ -5278,7 +5438,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "龙骨",
@@ -5286,7 +5447,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "龙骨",
@@ -5294,7 +5456,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -5302,7 +5465,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -5310,7 +5474,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -5318,7 +5483,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾涤痰化瘀汤",
@@ -5326,7 +5492,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察"
+      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾涤痰化瘀汤",
@@ -5334,7 +5501,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察"
+      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾解郁汤",
@@ -5342,7 +5510,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾解郁汤",
@@ -5350,7 +5519,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -5358,7 +5528,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -5366,7 +5537,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾益脑丸",
@@ -5374,7 +5546,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察"
+      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾益脑丸",
@@ -5382,7 +5555,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察"
+      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾益脑丸",
@@ -5390,7 +5564,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察"
+      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -5398,7 +5573,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察"
+      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -5406,7 +5582,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察"
+      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -5414,7 +5591,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -5422,7 +5600,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -5430,7 +5609,8 @@
       "predicate": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -5438,7 +5618,8 @@
       "predicate": "治疗",
       "object": "气滞",
       "object_type": "病机",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -5446,7 +5627,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -5454,7 +5636,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 陈苏宁教授以清眩解郁汤治疗高血压合并焦虑抑郁状态的疗效观察"
+      "source": "文献: 陈苏宁教授以清眩解郁汤治疗高血压合并焦虑抑郁状态的疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -5462,7 +5645,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察"
+      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -5470,7 +5654,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察"
+      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -5478,7 +5663,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析"
+      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -5486,7 +5672,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析"
+      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -5494,7 +5681,8 @@
       "predicate": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析"
+      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -5502,7 +5690,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果"
+      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -5510,7 +5699,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果"
+      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -5518,7 +5708,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果"
+      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -5526,7 +5717,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响"
+      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -5534,7 +5726,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响"
+      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -5542,7 +5735,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 顾健霞主任中医师论治女性高血压合并焦虑抑郁临证经验"
+      "source": "文献: 顾健霞主任中医师论治女性高血压合并焦虑抑郁临证经验",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -5550,7 +5744,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 顾健霞自拟天麻合欢枣仁汤治疗高血压病合并焦虑抑郁经验"
+      "source": "文献: 顾健霞自拟天麻合欢枣仁汤治疗高血压病合并焦虑抑郁经验",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -5558,7 +5753,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效"
+      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -5566,7 +5762,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效"
+      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -5574,7 +5771,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效"
+      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -5582,7 +5780,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效"
+      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -5590,7 +5789,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效"
+      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "归脾汤",
@@ -5598,7 +5798,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响"
+      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "归脾汤",
@@ -5606,7 +5807,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响"
+      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "归脾汤",
@@ -5614,7 +5816,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响"
+      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "丹参",
@@ -5622,7 +5825,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹参",
@@ -5630,7 +5834,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹参",
@@ -5638,7 +5843,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "甘草",
@@ -5646,7 +5852,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "甘草",
@@ -5654,7 +5861,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "甘草",
@@ -5662,7 +5870,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "白芍",
@@ -5670,7 +5879,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "白芍",
@@ -5678,7 +5888,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "白芍",
@@ -5686,7 +5897,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -5694,7 +5906,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -5702,7 +5915,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -5710,7 +5924,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -5718,7 +5933,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -5726,7 +5942,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -5734,7 +5951,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "陈皮",
@@ -5742,7 +5960,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "陈皮",
@@ -5750,7 +5969,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "陈皮",
@@ -5758,7 +5978,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -5766,7 +5987,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -5774,7 +5996,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -5782,7 +6005,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -5790,7 +6014,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -5798,7 +6023,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -5806,7 +6032,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -5814,7 +6041,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -5822,7 +6050,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -5830,7 +6059,8 @@
       "predicate": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -5838,7 +6068,8 @@
       "predicate": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -5846,7 +6077,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究"
+      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -5854,7 +6086,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究"
+      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -5862,7 +6095,8 @@
       "predicate": "治疗",
       "object": "阴虚",
       "object_type": "病机",
-      "source": "文献: 加味酸枣仁汤对高血压（阴虚火旺型）合并焦虑障碍患者心肌重塑的影响"
+      "source": "文献: 加味酸枣仁汤对高血压（阴虚火旺型）合并焦虑障碍患者心肌重塑的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "镇肝熄风汤",
@@ -5870,7 +6104,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "镇肝熄风汤",
@@ -5878,7 +6113,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "镇肝熄风汤",
@@ -5886,7 +6122,8 @@
       "predicate": "治疗",
       "object": "阴虚",
       "object_type": "病机",
-      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -5894,7 +6131,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 焦作地区城镇 H型高血压合并焦虑和抑郁相关因素及中医证素分布规律研究"
+      "source": "文献: 焦作地区城镇 H型高血压合并焦虑和抑郁相关因素及中医证素分布规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -5902,7 +6140,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤对肝郁化火型高血压伴焦虑症的中医证候及血清指标的影响"
+      "source": "文献: 解郁平肝汤对肝郁化火型高血压伴焦虑症的中医证候及血清指标的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "栀子",
@@ -5910,7 +6149,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "栀子",
@@ -5918,7 +6158,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "合欢皮",
@@ -5926,7 +6167,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "合欢皮",
@@ -5934,7 +6176,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "夏枯草",
@@ -5942,7 +6185,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "夏枯草",
@@ -5950,7 +6194,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "石决明",
@@ -5958,7 +6203,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "石决明",
@@ -5966,7 +6212,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -5974,7 +6221,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 龙藤降压汤干预青年高血压伴焦虑状态的疗效观察"
+      "source": "文献: 龙藤降压汤干预青年高血压伴焦虑状态的疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -5982,7 +6230,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响"
+      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -5990,7 +6239,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响"
+      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -5998,7 +6248,8 @@
       "predicate": "治疗",
       "object": "肝阳上亢",
       "object_type": "病机",
-      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响"
+      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "益气",
@@ -6006,7 +6257,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究"
+      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究",
+      "evidence_level": "A"
     },
     {
       "subject": "益气",
@@ -6014,7 +6266,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究"
+      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究",
+      "evidence_level": "A"
     },
     {
       "subject": "益气",
@@ -6022,7 +6275,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究"
+      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -6030,7 +6284,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 杞菊地黄汤加减沐足治疗老年高血压合并失眠的临床效果分析"
+      "source": "文献: 杞菊地黄汤加减沐足治疗老年高血压合并失眠的临床效果分析",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -6038,7 +6293,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 杞菊地黄汤加味对高血压合并焦虑抑郁情绪患者的效果"
+      "source": "文献: 杞菊地黄汤加味对高血压合并焦虑抑郁情绪患者的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -6046,7 +6302,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 清火解郁安神 1号方治疗 1级高血压（肝火上炎证）的临床研究"
+      "source": "文献: 清火解郁安神 1号方治疗 1级高血压（肝火上炎证）的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "人参",
@@ -6054,7 +6311,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍"
+      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍",
+      "evidence_level": "A"
     },
     {
       "subject": "人参",
@@ -6062,7 +6320,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍"
+      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -6070,7 +6329,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -6078,7 +6338,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -6086,7 +6347,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -6094,7 +6356,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -6102,7 +6365,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 酸枣仁汤加减联合智能血压仪治疗高血压病合并焦虑抑郁的临床观察"
+      "source": "文献: 酸枣仁汤加减联合智能血压仪治疗高血压病合并焦虑抑郁的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6110,7 +6374,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析"
+      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -6118,7 +6383,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析"
+      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6126,7 +6392,8 @@
       "predicate": "治疗",
       "object": "阴虚",
       "object_type": "病机",
-      "source": "文献: 天麻钩藤饮结合五行音乐疗法干预 -阴虚阳亢型 1级高血压临床研究"
+      "source": "文献: 天麻钩藤饮结合五行音乐疗法干预 -阴虚阳亢型 1级高血压临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6134,7 +6401,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响"
+      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -6142,7 +6410,8 @@
       "predicate": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响"
+      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -6150,7 +6419,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究"
+      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -6158,7 +6428,8 @@
       "predicate": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究"
+      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "黄芩",
@@ -6166,7 +6437,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "黄芩",
@@ -6174,7 +6446,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "夜交藤",
@@ -6182,7 +6455,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "夜交藤",
@@ -6190,7 +6464,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "当归",
@@ -6198,7 +6473,8 @@
       "predicate": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "当归",
@@ -6206,7 +6482,8 @@
       "predicate": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "肝郁",
@@ -6214,7 +6491,8 @@
       "predicate": "引起",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -6222,7 +6500,8 @@
       "predicate": "引起",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -6230,7 +6509,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -6238,7 +6518,8 @@
       "predicate": "引起",
       "object": "胸闷",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -6246,7 +6527,8 @@
       "predicate": "引起",
       "object": "心烦",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -6254,7 +6536,8 @@
       "predicate": "引起",
       "object": "失眠",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -6262,7 +6545,8 @@
       "predicate": "引起",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -6270,7 +6554,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -6278,7 +6563,8 @@
       "predicate": "引起",
       "object": "胸闷",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -6286,7 +6572,8 @@
       "predicate": "引起",
       "object": "烦躁",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -6294,7 +6581,8 @@
       "predicate": "引起",
       "object": "失眠",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -6302,7 +6590,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -6310,7 +6599,8 @@
       "predicate": "引起",
       "object": "心悸",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -6318,7 +6608,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -6326,7 +6617,8 @@
       "predicate": "引起",
       "object": "眩晕",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -6334,7 +6626,8 @@
       "predicate": "引起",
       "object": "胸闷",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -6342,7 +6635,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -6350,7 +6644,8 @@
       "predicate": "引起",
       "object": "眩晕",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -6358,7 +6653,8 @@
       "predicate": "引起",
       "object": "耳鸣",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -6366,7 +6662,8 @@
       "predicate": "引起",
       "object": "腰膝酸软",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -6374,7 +6671,8 @@
       "predicate": "引起",
       "object": "失眠",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -6382,7 +6680,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -6390,7 +6689,8 @@
       "predicate": "引起",
       "object": "眩晕",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -6398,7 +6698,8 @@
       "predicate": "引起",
       "object": "头痛",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -6406,7 +6707,8 @@
       "predicate": "引起",
       "object": "耳鸣",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -6414,7 +6716,8 @@
       "predicate": "引起",
       "object": "烦躁",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -6422,7 +6725,8 @@
       "predicate": "引起",
       "object": "易怒",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气虚",
@@ -6430,7 +6734,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气虚",
@@ -6438,7 +6743,8 @@
       "predicate": "引起",
       "object": "疲倦乏力",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -6446,7 +6752,8 @@
       "predicate": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -6454,7 +6761,8 @@
       "predicate": "引起",
       "object": "头痛",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -6462,7 +6770,8 @@
       "predicate": "引起",
       "object": "肢体麻木",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -6470,7 +6779,8 @@
       "predicate": "使用",
       "object": "疏肝解郁",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -6478,7 +6788,8 @@
       "predicate": "使用",
       "object": "疏肝解郁",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -6486,7 +6797,8 @@
       "predicate": "使用",
       "object": "交通心肾",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -6494,7 +6806,8 @@
       "predicate": "使用",
       "object": "健脾化痰",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -6502,7 +6815,8 @@
       "predicate": "使用",
       "object": "滋阴降火",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -6510,7 +6824,8 @@
       "predicate": "使用",
       "object": "平肝潜阳",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气虚",
@@ -6518,7 +6833,8 @@
       "predicate": "使用",
       "object": "益气",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -6526,7 +6842,8 @@
       "predicate": "使用",
       "object": "活血化瘀",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     }
   ],
   "triples": [
@@ -6536,7 +6853,8 @@
       "relation": "组成",
       "object": "柴胡",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -6544,7 +6862,8 @@
       "relation": "组成",
       "object": "陈皮",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -6552,7 +6871,8 @@
       "relation": "组成",
       "object": "川芎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -6560,7 +6880,8 @@
       "relation": "组成",
       "object": "香附",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -6568,7 +6889,8 @@
       "relation": "组成",
       "object": "枳壳",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -6576,7 +6898,8 @@
       "relation": "组成",
       "object": "白芍",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡疏肝散",
@@ -6584,7 +6907,8 @@
       "relation": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6592,7 +6916,8 @@
       "relation": "组成",
       "object": "柴胡",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6600,7 +6925,8 @@
       "relation": "组成",
       "object": "龙骨",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6608,7 +6934,8 @@
       "relation": "组成",
       "object": "牡蛎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6616,7 +6943,8 @@
       "relation": "组成",
       "object": "黄芩",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6624,7 +6952,8 @@
       "relation": "组成",
       "object": "生姜",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6632,7 +6961,8 @@
       "relation": "组成",
       "object": "铅丹",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6640,7 +6970,8 @@
       "relation": "组成",
       "object": "人参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6648,7 +6979,8 @@
       "relation": "组成",
       "object": "桂枝",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6656,7 +6988,8 @@
       "relation": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6664,7 +6997,8 @@
       "relation": "组成",
       "object": "半夏",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6672,7 +7006,8 @@
       "relation": "组成",
       "object": "大黄",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -6680,7 +7015,8 @@
       "relation": "组成",
       "object": "大枣",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -6688,7 +7024,8 @@
       "relation": "组成",
       "object": "人参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -6696,7 +7033,8 @@
       "relation": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -6704,7 +7042,8 @@
       "relation": "组成",
       "object": "茯神",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -6712,7 +7051,8 @@
       "relation": "组成",
       "object": "远志",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -6720,7 +7060,8 @@
       "relation": "组成",
       "object": "石菖蒲",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "安神定志丸",
@@ -6728,7 +7069,8 @@
       "relation": "组成",
       "object": "龙齿",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6736,7 +7078,8 @@
       "relation": "组成",
       "object": "白术",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6744,7 +7087,8 @@
       "relation": "组成",
       "object": "茯神",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6752,7 +7096,8 @@
       "relation": "组成",
       "object": "黄芪",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6760,7 +7105,8 @@
       "relation": "组成",
       "object": "龙眼肉",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6768,7 +7114,8 @@
       "relation": "组成",
       "object": "酸枣仁",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6776,7 +7123,8 @@
       "relation": "组成",
       "object": "人参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6784,7 +7132,8 @@
       "relation": "组成",
       "object": "木香",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6792,7 +7141,8 @@
       "relation": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6800,7 +7150,8 @@
       "relation": "组成",
       "object": "当归",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "归脾汤",
@@ -6808,7 +7159,8 @@
       "relation": "组成",
       "object": "远志",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6816,7 +7168,8 @@
       "relation": "组成",
       "object": "半夏",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6824,7 +7177,8 @@
       "relation": "组成",
       "object": "白术",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6832,7 +7186,8 @@
       "relation": "组成",
       "object": "天麻",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6840,7 +7195,8 @@
       "relation": "组成",
       "object": "陈皮",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6848,7 +7204,8 @@
       "relation": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6856,7 +7213,8 @@
       "relation": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6864,7 +7222,8 @@
       "relation": "组成",
       "object": "生姜",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -6872,7 +7231,8 @@
       "relation": "组成",
       "object": "大枣",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -6880,7 +7240,8 @@
       "relation": "组成",
       "object": "酸枣仁",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -6888,7 +7249,8 @@
       "relation": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -6896,7 +7258,8 @@
       "relation": "组成",
       "object": "知母",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -6904,7 +7267,8 @@
       "relation": "组成",
       "object": "川芎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "酸枣仁汤",
@@ -6912,7 +7276,8 @@
       "relation": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6920,7 +7285,8 @@
       "relation": "组成",
       "object": "天麻",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6928,7 +7294,8 @@
       "relation": "组成",
       "object": "钩藤",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6936,7 +7303,8 @@
       "relation": "组成",
       "object": "石决明",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6944,7 +7312,8 @@
       "relation": "组成",
       "object": "栀子",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6952,7 +7321,8 @@
       "relation": "组成",
       "object": "黄芩",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6960,7 +7330,8 @@
       "relation": "组成",
       "object": "川牛膝",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6968,7 +7339,8 @@
       "relation": "组成",
       "object": "杜仲",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6976,7 +7348,8 @@
       "relation": "组成",
       "object": "益母草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6984,7 +7357,8 @@
       "relation": "组成",
       "object": "桑寄生",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -6992,7 +7366,8 @@
       "relation": "组成",
       "object": "夜交藤",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "天麻钩藤饮",
@@ -7000,7 +7375,8 @@
       "relation": "组成",
       "object": "茯神",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7008,7 +7384,8 @@
       "relation": "组成",
       "object": "怀牛膝",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7016,7 +7393,8 @@
       "relation": "组成",
       "object": "代赭石",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7024,7 +7402,8 @@
       "relation": "组成",
       "object": "龙骨",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7032,7 +7411,8 @@
       "relation": "组成",
       "object": "牡蛎",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7040,7 +7420,8 @@
       "relation": "组成",
       "object": "龟板",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7048,7 +7429,8 @@
       "relation": "组成",
       "object": "白芍",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7056,7 +7438,8 @@
       "relation": "组成",
       "object": "玄参",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7064,7 +7447,8 @@
       "relation": "组成",
       "object": "天冬",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7072,7 +7456,8 @@
       "relation": "组成",
       "object": "川楝子",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7080,7 +7465,8 @@
       "relation": "组成",
       "object": "茵陈",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "镇肝熄风汤",
@@ -7088,7 +7474,8 @@
       "relation": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7096,7 +7483,8 @@
       "relation": "组成",
       "object": "柴胡",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7104,7 +7492,8 @@
       "relation": "组成",
       "object": "当归",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7112,7 +7501,8 @@
       "relation": "组成",
       "object": "白芍",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7120,7 +7510,8 @@
       "relation": "组成",
       "object": "白术",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7128,7 +7519,8 @@
       "relation": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7136,7 +7528,8 @@
       "relation": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7144,7 +7537,8 @@
       "relation": "组成",
       "object": "薄荷",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "逍遥散",
@@ -7152,7 +7546,8 @@
       "relation": "组成",
       "object": "生姜",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -7160,7 +7555,8 @@
       "relation": "组成",
       "object": "半夏",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -7168,7 +7564,8 @@
       "relation": "组成",
       "object": "陈皮",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -7176,7 +7573,8 @@
       "relation": "组成",
       "object": "茯苓",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -7184,7 +7582,8 @@
       "relation": "组成",
       "object": "甘草",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -7192,7 +7591,8 @@
       "relation": "组成",
       "object": "竹茹",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "温胆汤",
@@ -7200,7 +7600,8 @@
       "relation": "组成",
       "object": "枳实",
       "object_type": "中药",
-      "source": "中医方剂学"
+      "source": "中医方剂学",
+      "evidence_level": "B"
     },
     {
       "subject": "宁心安神",
@@ -7208,7 +7609,8 @@
       "relation": "使用",
       "object": "安神定志丸",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "宁心安神",
@@ -7216,7 +7618,8 @@
       "relation": "使用",
       "object": "安心汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "宁心安神",
@@ -7224,7 +7627,8 @@
       "relation": "使用",
       "object": "安寐颗粒",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "宁心安神",
@@ -7232,7 +7636,8 @@
       "relation": "使用",
       "object": "酸枣仁汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "健脾化痰",
@@ -7240,7 +7645,8 @@
       "relation": "使用",
       "object": "半夏白术天麻汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "健脾化痰",
@@ -7248,7 +7654,8 @@
       "relation": "使用",
       "object": "温胆汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "健脾化痰",
@@ -7256,7 +7663,8 @@
       "relation": "使用",
       "object": "归脾汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "滋阴降火",
@@ -7264,7 +7672,8 @@
       "relation": "使用",
       "object": "补肾解郁汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "滋阴降火",
@@ -7272,7 +7681,8 @@
       "relation": "使用",
       "object": "补肾益脑丸",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -7280,7 +7690,8 @@
       "relation": "使用",
       "object": "柴胡疏肝散",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -7288,7 +7699,8 @@
       "relation": "使用",
       "object": "逍遥散",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -7296,7 +7708,8 @@
       "relation": "使用",
       "object": "丹栀逍遥散",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -7304,7 +7717,8 @@
       "relation": "使用",
       "object": "解郁平肝汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "疏肝解郁",
@@ -7312,7 +7726,8 @@
       "relation": "使用",
       "object": "舒肝解郁胶囊",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "活血化瘀",
@@ -7320,7 +7735,8 @@
       "relation": "使用",
       "object": "补肾涤痰化瘀汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "平肝潜阳",
@@ -7328,7 +7744,8 @@
       "relation": "使用",
       "object": "天麻钩藤饮",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "平肝潜阳",
@@ -7336,7 +7753,8 @@
       "relation": "使用",
       "object": "镇肝熄风汤",
       "object_type": "方剂",
-      "source": "中医治法理论"
+      "source": "中医治法理论",
+      "evidence_level": "C"
     },
     {
       "subject": "交通心肾",
@@ -7344,7 +7762,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "交通心肾",
@@ -7352,7 +7771,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "交通心肾",
@@ -7360,7 +7780,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "交通心肾",
@@ -7368,7 +7789,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响"
+      "source": "文献: \"交通心肾 \"指针法对中老年高血压伴失眠患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -7376,7 +7798,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况"
+      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -7384,7 +7807,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况"
+      "source": "文献: “活血散风”针刺法治疗高血压病的机制研究概况",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -7392,7 +7816,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -7400,7 +7825,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: “健脾调神”推拿治疗高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -7408,7 +7834,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -7416,7 +7843,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -7424,7 +7852,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安寐颗粒",
@@ -7432,7 +7861,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -7440,7 +7870,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -7448,7 +7879,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -7456,7 +7888,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁",
@@ -7464,7 +7897,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响"
+      "source": "文献: 安寐颗粒对失眠伴高血压虚证型患者睡眠质量及血压昼夜节律的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "安神定志丸",
@@ -7472,7 +7906,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "安神定志丸",
@@ -7480,7 +7915,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -7488,7 +7924,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -7496,7 +7933,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究"
+      "source": "文献: 安神定志丸治疗高血压伴围手术期焦虑的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "安心汤",
@@ -7504,7 +7942,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察"
+      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "安心汤",
@@ -7512,7 +7951,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察"
+      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "安心汤",
@@ -7520,7 +7960,8 @@
       "relation": "治疗",
       "object": "气虚",
       "object_type": "病机",
-      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察"
+      "source": "文献: 安心汤治疗肾气虚证单纯收缩期高血压患者焦虑障碍的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -7528,7 +7969,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察"
+      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -7536,7 +7978,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察"
+      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -7544,7 +7987,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察"
+      "source": "文献: 氨氯地平与坦度螺酮联合逍遥散加味方在老年性高血压合并焦虑抑郁患者中的应用观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -7552,7 +7996,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -7560,7 +8005,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -7568,7 +8014,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -7576,7 +8023,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "温胆汤",
@@ -7584,7 +8032,8 @@
       "relation": "治疗",
       "object": "痰湿",
       "object_type": "病因病机",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -7592,7 +8041,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -7600,7 +8050,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -7608,7 +8059,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -7616,7 +8068,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏白术天麻汤",
@@ -7624,7 +8077,8 @@
       "relation": "治疗",
       "object": "痰湿",
       "object_type": "病因病机",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -7632,7 +8086,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -7640,7 +8095,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -7648,7 +8104,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻",
@@ -7656,7 +8113,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -7664,7 +8122,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -7672,7 +8131,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -7680,7 +8140,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "白术",
@@ -7688,7 +8149,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -7696,7 +8158,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -7704,7 +8167,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -7712,7 +8176,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "半夏",
@@ -7720,7 +8185,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察"
+      "source": "文献: 半夏白术天麻汤合温胆汤治疗高血压临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -7728,7 +8194,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -7736,7 +8203,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡加龙骨牡蛎汤",
@@ -7744,7 +8212,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "牡蛎",
@@ -7752,7 +8221,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "牡蛎",
@@ -7760,7 +8230,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "牡蛎",
@@ -7768,7 +8239,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "龙骨",
@@ -7776,7 +8248,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "龙骨",
@@ -7784,7 +8257,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "龙骨",
@@ -7792,7 +8266,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -7800,7 +8275,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -7808,7 +8284,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -7816,7 +8293,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较"
+      "source": "文献: 苯磺酸氨氯地平联合柴胡加龙骨牡蛎汤或氟哌噻吨美利曲辛治疗原发性高血压病伴焦虑 的效果比较",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾涤痰化瘀汤",
@@ -7824,7 +8302,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察"
+      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾涤痰化瘀汤",
@@ -7832,7 +8311,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察"
+      "source": "文献: 补肾涤痰化瘀汤治疗原发性高血压临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾解郁汤",
@@ -7840,7 +8320,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾解郁汤",
@@ -7848,7 +8329,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -7856,7 +8338,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -7864,7 +8347,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究"
+      "source": "文献: 补肾解郁汤治疗老年高血压病伴抑郁状态患者的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾益脑丸",
@@ -7872,7 +8356,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察"
+      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾益脑丸",
@@ -7880,7 +8365,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察"
+      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察",
+      "evidence_level": "A"
     },
     {
       "subject": "补肾益脑丸",
@@ -7888,7 +8374,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察"
+      "source": "文献: 补肾益脑丸联合氨氯地平用于合并焦虑、抑郁的老年高血压患者效果观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -7896,7 +8383,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察"
+      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -7904,7 +8392,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察"
+      "source": "文献: 柴胡疏肝散加减联合替米沙坦治疗高血压合并焦虑状态患者的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -7912,7 +8401,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -7920,7 +8410,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -7928,7 +8419,8 @@
       "relation": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡疏肝散",
@@ -7936,7 +8428,8 @@
       "relation": "治疗",
       "object": "气滞",
       "object_type": "病机",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "柴胡",
@@ -7944,7 +8437,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响"
+      "source": "文献: 柴胡疏肝散加味对失眠伴高血压患者睡眠质量及焦虑抑郁情绪状态的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -7952,7 +8446,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 陈苏宁教授以清眩解郁汤治疗高血压合并焦虑抑郁状态的疗效观察"
+      "source": "文献: 陈苏宁教授以清眩解郁汤治疗高血压合并焦虑抑郁状态的疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -7960,7 +8455,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察"
+      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "宁心安神",
@@ -7968,7 +8464,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察"
+      "source": "文献: 从“心主神明”理论探讨养心安神定眩汤对高血压（心脾气血两虚型）合并情志障碍患者 的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -7976,7 +8473,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析"
+      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -7984,7 +8482,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析"
+      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -7992,7 +8491,8 @@
       "relation": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析"
+      "source": "文献: 对解郁平肝汤治疗高血压合并焦虑症肝郁化火型患者的临床疗效进行分析",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -8000,7 +8500,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果"
+      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -8008,7 +8509,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果"
+      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -8016,7 +8518,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果"
+      "source": "文献: 高血压合并失眠患者经酸枣仁汤加减辅助治疗的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -8024,7 +8527,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响"
+      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -8032,7 +8536,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响"
+      "source": "文献: 钩藤方治疗阳亢热毒证原发性高血压伴焦虑障碍的临床疗效及对炎症平衡的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -8040,7 +8545,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 顾健霞主任中医师论治女性高血压合并焦虑抑郁临证经验"
+      "source": "文献: 顾健霞主任中医师论治女性高血压合并焦虑抑郁临证经验",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -8048,7 +8554,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 顾健霞自拟天麻合欢枣仁汤治疗高血压病合并焦虑抑郁经验"
+      "source": "文献: 顾健霞自拟天麻合欢枣仁汤治疗高血压病合并焦虑抑郁经验",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -8056,7 +8563,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效"
+      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -8064,7 +8572,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效"
+      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -8072,7 +8581,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效"
+      "source": "文献: 观察加味养阴降压汤治疗高血压病伴睡眠障碍的临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -8080,7 +8590,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效"
+      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -8088,7 +8599,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效"
+      "source": "文献: 观察杞菊地黄汤加减治疗女性围绝经期高血压合并焦虑状态临床疗效",
+      "evidence_level": "A"
     },
     {
       "subject": "归脾汤",
@@ -8096,7 +8608,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响"
+      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "归脾汤",
@@ -8104,7 +8617,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响"
+      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "归脾汤",
@@ -8112,7 +8626,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响"
+      "source": "文献: 归脾汤加减对高血压病合并抑郁症患者血压及其生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "丹参",
@@ -8120,7 +8635,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹参",
@@ -8128,7 +8644,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹参",
@@ -8136,7 +8653,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "甘草",
@@ -8144,7 +8662,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "甘草",
@@ -8152,7 +8671,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "甘草",
@@ -8160,7 +8680,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "白芍",
@@ -8168,7 +8689,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "白芍",
@@ -8176,7 +8698,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "白芍",
@@ -8184,7 +8707,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -8192,7 +8716,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -8200,7 +8725,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -8208,7 +8734,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -8216,7 +8743,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -8224,7 +8752,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -8232,7 +8761,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "陈皮",
@@ -8240,7 +8770,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "陈皮",
@@ -8248,7 +8779,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "陈皮",
@@ -8256,7 +8788,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "活血化瘀",
@@ -8264,7 +8797,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -8272,7 +8806,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -8280,7 +8815,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -8288,7 +8824,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "健脾化痰",
@@ -8296,7 +8833,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究"
+      "source": "文献: 基于脑肠轴探讨五行音乐疗法调节肠道菌群改善肝郁脾虚型高血压伴发焦虑临床观察及 机制研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -8304,7 +8842,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -8312,7 +8851,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -8320,7 +8860,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -8328,7 +8869,8 @@
       "relation": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -8336,7 +8878,8 @@
       "relation": "治疗",
       "object": "肝郁",
       "object_type": "病因病机",
-      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究"
+      "source": "文献: 加减丹栀逍遥散结合体质调理干预气郁质肝郁化火型高血压合并焦虑抑郁的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "丹栀逍遥散",
@@ -8344,7 +8887,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究"
+      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "逍遥散",
@@ -8352,7 +8896,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究"
+      "source": "文献: 加味丹栀逍遥散治疗社区高血压患者伴发失眠症的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -8360,7 +8905,8 @@
       "relation": "治疗",
       "object": "阴虚",
       "object_type": "病机",
-      "source": "文献: 加味酸枣仁汤对高血压（阴虚火旺型）合并焦虑障碍患者心肌重塑的影响"
+      "source": "文献: 加味酸枣仁汤对高血压（阴虚火旺型）合并焦虑障碍患者心肌重塑的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "镇肝熄风汤",
@@ -8368,7 +8914,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "镇肝熄风汤",
@@ -8376,7 +8923,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "镇肝熄风汤",
@@ -8384,7 +8932,8 @@
       "relation": "治疗",
       "object": "阴虚",
       "object_type": "病机",
-      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察"
+      "source": "文献: 加味镇肝熄风汤治疗阴虚阳亢型高血压伴焦虑状态的临床疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "滋阴降火",
@@ -8392,7 +8941,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 焦作地区城镇 H型高血压合并焦虑和抑郁相关因素及中医证素分布规律研究"
+      "source": "文献: 焦作地区城镇 H型高血压合并焦虑和抑郁相关因素及中医证素分布规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "解郁平肝汤",
@@ -8400,7 +8950,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤对肝郁化火型高血压伴焦虑症的中医证候及血清指标的影响"
+      "source": "文献: 解郁平肝汤对肝郁化火型高血压伴焦虑症的中医证候及血清指标的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "栀子",
@@ -8408,7 +8959,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "栀子",
@@ -8416,7 +8968,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "合欢皮",
@@ -8424,7 +8977,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "合欢皮",
@@ -8432,7 +8986,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "夏枯草",
@@ -8440,7 +8995,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "夏枯草",
@@ -8448,7 +9004,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "石决明",
@@ -8456,7 +9013,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "石决明",
@@ -8464,7 +9022,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例"
+      "source": "文献: 解郁平肝汤联合西药治疗高血压合并焦虑症 30例",
+      "evidence_level": "A"
     },
     {
       "subject": "平肝潜阳",
@@ -8472,7 +9031,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 龙藤降压汤干预青年高血压伴焦虑状态的疗效观察"
+      "source": "文献: 龙藤降压汤干预青年高血压伴焦虑状态的疗效观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -8480,7 +9040,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响"
+      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -8488,7 +9049,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响"
+      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -8496,7 +9058,8 @@
       "relation": "治疗",
       "object": "肝阳上亢",
       "object_type": "病机",
-      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响"
+      "source": "文献: 平调颗粒对肝阳上亢型原发性高血压患者生活质量的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "益气",
@@ -8504,7 +9067,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究"
+      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究",
+      "evidence_level": "A"
     },
     {
       "subject": "益气",
@@ -8512,7 +9076,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究"
+      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究",
+      "evidence_level": "A"
     },
     {
       "subject": "益气",
@@ -8520,7 +9085,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究"
+      "source": "文献: 芪七连胶囊治疗高血压病的疗效评价对照研究",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -8528,7 +9094,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 杞菊地黄汤加减沐足治疗老年高血压合并失眠的临床效果分析"
+      "source": "文献: 杞菊地黄汤加减沐足治疗老年高血压合并失眠的临床效果分析",
+      "evidence_level": "A"
     },
     {
       "subject": "地黄",
@@ -8536,7 +9103,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 杞菊地黄汤加味对高血压合并焦虑抑郁情绪患者的效果"
+      "source": "文献: 杞菊地黄汤加味对高血压合并焦虑抑郁情绪患者的效果",
+      "evidence_level": "A"
     },
     {
       "subject": "疏肝解郁",
@@ -8544,7 +9112,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 清火解郁安神 1号方治疗 1级高血压（肝火上炎证）的临床研究"
+      "source": "文献: 清火解郁安神 1号方治疗 1级高血压（肝火上炎证）的临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "人参",
@@ -8552,7 +9121,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍"
+      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍",
+      "evidence_level": "A"
     },
     {
       "subject": "人参",
@@ -8560,7 +9130,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍"
+      "source": "文献: 人参果总皂苷联合舍曲林治疗高血压合并广泛性焦虑障碍",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -8568,7 +9139,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -8576,7 +9148,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -8584,7 +9157,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "舒肝解郁胶囊",
@@ -8592,7 +9166,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响"
+      "source": "文献: 舒肝解郁胶囊对伴有失眠的 1级原发性高血压患者降压疗效的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "酸枣仁汤",
@@ -8600,7 +9175,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 酸枣仁汤加减联合智能血压仪治疗高血压病合并焦虑抑郁的临床观察"
+      "source": "文献: 酸枣仁汤加减联合智能血压仪治疗高血压病合并焦虑抑郁的临床观察",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -8608,7 +9184,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析"
+      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -8616,7 +9193,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析"
+      "source": "文献: 天麻钩藤饮加减配合朱氏针灸治疗老年高血压的临床效果分析",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -8624,7 +9202,8 @@
       "relation": "治疗",
       "object": "阴虚",
       "object_type": "病机",
-      "source": "文献: 天麻钩藤饮结合五行音乐疗法干预 -阴虚阳亢型 1级高血压临床研究"
+      "source": "文献: 天麻钩藤饮结合五行音乐疗法干预 -阴虚阳亢型 1级高血压临床研究",
+      "evidence_level": "A"
     },
     {
       "subject": "天麻钩藤饮",
@@ -8632,7 +9211,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响"
+      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "钩藤",
@@ -8640,7 +9220,8 @@
       "relation": "治疗",
       "object": "失眠",
       "object_type": "症状",
-      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响"
+      "source": "文献: 天麻钩藤饮联合右佐匹克隆治疗高血压焦虑伴睡眠障碍患者疗效及对炎症因子的影响",
+      "evidence_level": "A"
     },
     {
       "subject": "川芎",
@@ -8648,7 +9229,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究"
+      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "茯苓",
@@ -8656,7 +9238,8 @@
       "relation": "治疗",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究"
+      "source": "文献: 原发性高血压伴焦虑抑郁的中医辨治规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "黄芩",
@@ -8664,7 +9247,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "黄芩",
@@ -8672,7 +9256,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "夜交藤",
@@ -8680,7 +9265,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "夜交藤",
@@ -8688,7 +9274,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "当归",
@@ -8696,7 +9283,8 @@
       "relation": "治疗",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "当归",
@@ -8704,7 +9292,8 @@
       "relation": "治疗",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究"
+      "source": "文献: 中医药治疗原发性高血压合并焦虑的系统评价及用药规律研究",
+      "evidence_level": "A"
     },
     {
       "subject": "肝郁",
@@ -8712,7 +9301,8 @@
       "relation": "引起",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -8720,7 +9310,8 @@
       "relation": "引起",
       "object": "抑郁",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -8728,7 +9319,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -8736,7 +9328,8 @@
       "relation": "引起",
       "object": "胸闷",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -8744,7 +9337,8 @@
       "relation": "引起",
       "object": "心烦",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -8752,7 +9346,8 @@
       "relation": "引起",
       "object": "失眠",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -8760,7 +9355,8 @@
       "relation": "引起",
       "object": "焦虑",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -8768,7 +9364,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -8776,7 +9373,8 @@
       "relation": "引起",
       "object": "胸闷",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -8784,7 +9382,8 @@
       "relation": "引起",
       "object": "烦躁",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -8792,7 +9391,8 @@
       "relation": "引起",
       "object": "失眠",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -8800,7 +9400,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -8808,7 +9409,8 @@
       "relation": "引起",
       "object": "心悸",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -8816,7 +9418,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -8824,7 +9427,8 @@
       "relation": "引起",
       "object": "眩晕",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -8832,7 +9436,8 @@
       "relation": "引起",
       "object": "胸闷",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -8840,7 +9445,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -8848,7 +9454,8 @@
       "relation": "引起",
       "object": "眩晕",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -8856,7 +9463,8 @@
       "relation": "引起",
       "object": "耳鸣",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -8864,7 +9472,8 @@
       "relation": "引起",
       "object": "腰膝酸软",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -8872,7 +9481,8 @@
       "relation": "引起",
       "object": "失眠",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -8880,7 +9490,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -8888,7 +9499,8 @@
       "relation": "引起",
       "object": "眩晕",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -8896,7 +9508,8 @@
       "relation": "引起",
       "object": "头痛",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -8904,7 +9517,8 @@
       "relation": "引起",
       "object": "耳鸣",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -8912,7 +9526,8 @@
       "relation": "引起",
       "object": "烦躁",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -8920,7 +9535,8 @@
       "relation": "引起",
       "object": "易怒",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气虚",
@@ -8928,7 +9544,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气虚",
@@ -8936,7 +9553,8 @@
       "relation": "引起",
       "object": "疲倦乏力",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -8944,7 +9562,8 @@
       "relation": "引起",
       "object": "高血压",
       "object_type": "疾病",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -8952,7 +9571,8 @@
       "relation": "引起",
       "object": "头痛",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -8960,7 +9580,8 @@
       "relation": "引起",
       "object": "肢体麻木",
       "object_type": "症状",
-      "source": "中医病机理论"
+      "source": "中医病机理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝郁",
@@ -8968,7 +9589,8 @@
       "relation": "使用",
       "object": "疏肝解郁",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气滞",
@@ -8976,7 +9598,8 @@
       "relation": "使用",
       "object": "疏肝解郁",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "心肾不交",
@@ -8984,7 +9607,8 @@
       "relation": "使用",
       "object": "交通心肾",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "痰湿",
@@ -8992,7 +9616,8 @@
       "relation": "使用",
       "object": "健脾化痰",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "阴虚",
@@ -9000,7 +9625,8 @@
       "relation": "使用",
       "object": "滋阴降火",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "肝阳上亢",
@@ -9008,7 +9634,8 @@
       "relation": "使用",
       "object": "平肝潜阳",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "气虚",
@@ -9016,7 +9643,8 @@
       "relation": "使用",
       "object": "益气",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     },
     {
       "subject": "血瘀",
@@ -9024,7 +9652,8 @@
       "relation": "使用",
       "object": "活血化瘀",
       "object_type": "治则治法",
-      "source": "中医治则理论"
+      "source": "中医治则理论",
+      "evidence_level": "C"
     }
   ]
 }

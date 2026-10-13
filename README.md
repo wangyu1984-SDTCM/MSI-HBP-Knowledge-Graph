@@ -1,6 +1,6 @@
 # HTN-EC 高血压合并情志障碍中医知识图谱
 
-<sub>Repository identifier: MSI-HBP-Knowledge-Graph (retained from the original release)</sub>
+<sub>Repository identifier: MSI-HBP-Knowledge-Graph (retained from the original project name)</sub>
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
 **高血压合并情志障碍中医知识图谱与问答系统**
 
-*TCM Knowledge Graph for Hypertension with Emotional Comorbidity (HTN-EC)*
+*A Traditional Chinese Medicine Knowledge Graph for Hypertension With Emotional Comorbidity (HTN-EC-KG)*
 
 简体中文
 
@@ -21,32 +21,31 @@
 
 ## 项目简介
 
-本项目构建了**高血压合并情志障碍（Hypertension with Emotional Comorbidity, HTN-EC）**的中医知识图谱与问答系统，语料为 419 条中文文献题录（题名、关键词、摘要），采用大模型辅助抽取加专家策展的方式构建。
+本项目构建了**高血压合并情志障碍（Hypertension with Emotional Comorbidity, HTN-EC）**的中医知识资源与问答系统。语料为 419 条中文文献题录（题名、关键词、摘要），由 Qwen2.5-7B-Instruct 生成候选实体与关系，再由中医临床医师参照候选三元组、检索文献、标准教材和中医理论整理出最终关系集（LLM 辅助的专家策展）。
 
-**关于命名**：本项目最初以「精神应激性高血压（MSI-HBP）」立项，仓库标识 `MSI-HBP-Knowledge-Graph` 予以保留。对语料的主题标注显示，419 条记录中 417 条（99.5%）涉及高血压合并焦虑、抑郁或失眠，仅 2 条（0.5%）提及精神应激；检索式本身为「高血压」合并「焦虑」，未包含应激相关词。因此本项目改用与证据基础相符的「高血压合并情志障碍」表述，精神应激性高血压作为该范畴内证据尚不充分的亚型。详见论文 Introduction 与 Methods。
+**关于命名**：本项目最初以「精神应激性高血压（MSI-HBP）」立项，仓库标识 `MSI-HBP-Knowledge-Graph` 予以保留。对语料的主题标注显示，419 条记录中 417 条（99.5%）涉及高血压合并焦虑、抑郁或失眠，仅 2 条（0.5%）提及精神应激；检索式为「高血压」合并「焦虑」，未包含应激相关词。因此本项目改用「高血压合并情志障碍」作为对语料范围的描述；这不是一个新定义的诊断亚型，也不意味着高血压由应激引起。详见论文 Introduction 与 Methods。
 
-**当前定位**：早期文献导航原型。独立评估（73 道外部专家命题、双盲评分）显示，在论文所述配置下系统完整答对 12% 的临床问题、方向正确 48%。本系统不支持临床决策，请勿用于诊疗。评估材料见 `evaluation/` 目录。
+**当前定位**：文献导航原型，**不支持临床决策，请勿用于诊疗**。在 73 道由外部临床专家独立命题、双盲评分的问题上，固定生成模型（DeepSeek-V4-Pro）加入图谱检索后的严格正确率为 50/73（68%），不加图谱检索为 57/73（78%），配对 McNemar 检验 P=.09；该实验未能证明图谱检索提高严格正确率，也未建立等效性。评估材料见 [`evaluation/`](evaluation/README.md)。
 
 ### ✨ 核心特性
 
-- 🧠 **大模型辅助抽取**: 从文献题录（题名、关键词、摘要）中抽取候选实体与关系
-- 🔗 **专家策展**: 由中医临床医师参照候选三元组、标准教材与检索所得文献审定最终关系集
-- 💾 **图数据库存储**: 基于Neo4j的高性能图存储
-- 💬 **智能问答系统**: 基于LLM和知识图谱的中医问答
+- 🧠 **大模型辅助候选抽取**: 从文献题录（题名、关键词、摘要）中抽取候选实体与关系
+- 🔗 **专家策展**: 由中医临床医师参照候选三元组、标准教材与检索所得文献审定最终关系集；312 条最终关系中仅 38 条出现在融合后的抽取候选中，274 条来自专家补充
+- 💾 **双存储表示**: JSON 知识库与 Neo4j 图数据库
+- 💬 **问答系统**: 实体识别 → 关系检索 → 大模型答案合成
 - 📊 **知识可视化**: 交互式知识图谱可视化展示
-- 🏷️ **证据分级**: 每条关系标注出处等级（A 具体文献 171 条／B 权威教材 84 条／C 通行理论 57 条）
-- 🔍 **可复现**: `rebuild_stats.py` 可从发布数据重算论文全部统计；评估材料见 `evaluation/`
+- 🏷️ **来源类别**: 每条关系标注来源类别（A 具体文献 171 条／B 教材《中医方剂学》84 条／C 中医理论 57 条）。类别只区分来源类型，不是临床证据强度分级；数据中的字段名 `evidence_level` 为历史保留
+- 🔍 **可复算**: `rebuild_stats.py` 从发布数据重算资源构成统计（实体索引、图谱节点与关系、来源类别、度中心性）；`evaluation/retrieval_ablation.py` 重算失败分析所依据的图结构统计
 
 ### 📊 数据规模
 
-- **实体索引**: 997 条记录（按「名称+类型」唯一，25 种类型），对应 956 个唯一实体名称
-- **知识图谱**: 101 个节点、312 条关系（4 种类型）
-- **端点有效性**: 312/312（100%），每条关系两端均在实体索引内
-- **证据分级**: A 级 171 条（可溯源至具体文献）／B 级 84 条（《中医方剂学》）／C 级 57 条（通行中医理论）
-- **三元组精确率**: 96%（95% CI 90–98），双评审盲法验证 100 条样本
+- **实体索引**: 997 条记录（按「名称+类型」唯一，25 种类型），对应 956 个唯一实体名称；用于问题中的实体识别与术语归一
+- **知识图谱**: 101 个节点、312 条关系（4 种谓词）；承担实际检索
+- **端点有效性**: 312/312（100%），每条关系两端均在实体索引内（仅检查引用一致性）
+- **来源类别**: A 类 171 条（可溯源至 46 篇具体文献）／B 类 84 条（《中医方剂学》）／C 类 57 条（中医病机、治法、治则理论）
+- **专家确认**: 对 100 条分层抽样的最终关系，两位未参与构图的临床医师独立评审，共识确认 96 条（96%，95% CI 90–98）。该比例描述所抽样本，不是全图精度，也不是抽取模型的精度
 
-> **注**：实体索引（956 词条）用于问题中的实体识别与术语归一；知识图谱（101 节点）承担实际检索与推理。
-> 索引宽于图谱是有意设计，详见论文 Methods。
+> **注**：实体索引（956 词条）用于实体识别与术语归一；知识图谱（101 节点）承担实际检索。索引宽于图谱是有意设计。索引与图谱中「焦虑」「抑郁」「失眠」的类型为症状，「焦虑症」「抑郁症」为疾病；图谱中疾病节点仅「高血压」一个。详见论文 Methods。
 
 ---
 
@@ -55,7 +54,7 @@
 ### 环境要求
 
 - Python 3.8+
-- Neo4j 5.x
+- Neo4j 5.x（可选；JSON 后端无需数据库）
 - 8GB+ RAM
 
 ### 1. 克隆项目
@@ -73,7 +72,7 @@ pip install -r requirements.txt
 
 ### 3. 配置环境变量
 
-创建 `.env` 文件：
+复制 `.env.example` 为 `.env` 并填写：
 
 ```env
 # LLM配置
@@ -82,13 +81,13 @@ MODEL_API_KEY=your_api_key_here
 MODEL_NAME=Qwen/Qwen2.5-7B-Instruct
 MODEL_TEMPERATURE=0.1
 
-# Neo4j配置
+# Neo4j配置（使用 JSON 后端时可省略）
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USER=neo4j
 NEO4J_PASSWORD=your_password_here
 ```
 
-### 4. 启动Neo4j
+### 4. 启动Neo4j（可选）
 
 **使用Docker（推荐）:**
 
@@ -123,37 +122,35 @@ streamlit run app.py
 ## 📁 项目结构
 
 ```
-MSI-HBP-Knowledge-Graph/   # 仓库标识保留原名
+MSI-HBP-Knowledge-Graph/          # 仓库标识保留原名
 ├── 📂 evaluation/                # 独立评估材料（题集、评分细则、逐条评分、消融脚本）
 ├── 📂 data/                      # 数据目录
-│   ├── 📂 raw/                  # 原始数据（文献题录）
-│   ├── 📂 processed/            # 处理后的数据
-│   │   ├── extracted_triples/   # 抽取的三元组
-│   │   ├── fused_knowledge/     # 融合后的知识
-│   │   └── merged/              # 重分类、去重后的最终数据
-│   ├── entities.json            # 附件实体数据（997条）
-│   ├── 📂 external/             # 外部数据源
-│   ├── synonyms.json            # 同义词映射
-│   └── triples.json             # 知识三元组
+│   ├── entities.json            # 实体索引（997 条记录 / 956 个唯一名称）
+│   ├── triples.json             # 最终关系集（312 条，含来源与来源类别）
+│   ├── synonyms.json            # 同义词词典（28 组 / 66 个表面形式）
+│   ├── prompts.py               # 实体识别、答案合成、三元组抽取提示词模板
+│   ├── 📂 extracted/            # 419 条文献题录元数据及语料统计（摘要已按数据库条款移除）
+│   └── 📂 processed/            # 候选处理中间结果
+│       ├── extracted_triples/   # 原始抽取（1004 实体记录 / 1290 候选三元组）
+│       ├── fused_knowledge/     # 融合后（1002 / 1144）
+│       └── merged/              # 最终资源的副本与统计
 ├── 📂 src/                       # 源代码
-│   ├── 📂 crawler/              # 数据爬取模块
-│   ├── 📂 extraction/           # 知识抽取模块
-│   ├── 📂 fusion/               # 知识融合模块
-│   ├── 📂 qa/                   # 问答系统模块
-│   └── 📂 utils/                # 工具函数
-│       ├── config.py            # 配置管理
-│       ├── llm_client.py        # LLM客户端
-│       └── neo4j_client.py      # Neo4j客户端
+│   ├── 📂 crawler/              # 文献题录解析
+│   ├── 📂 extraction/           # 候选实体-关系抽取
+│   ├── 📂 fusion/               # 同义词归一与去重
+│   ├── 📂 mining/               # 图谱层统计
+│   ├── 📂 qa/                   # 问答系统（实体识别、JSON/Neo4j 检索、答案合成）
+│   └── 📂 utils/                # 配置、LLM 客户端、Neo4j 客户端
 ├── 📂 deploy/                    # 部署脚本
-├── 📂 lib/                       # 前端库
-├── app.py                        # Web应用主程序
-├── build_graph.py                # 知识图谱构建
-├── chat.py                       # 聊天界面
+├── 📂 lib/                       # 前端库（vis.js 等）
+├── app.py                        # Web应用主程序（Streamlit）
+├── chat.py                       # 命令行问答
+├── build_graph.py                # 知识图谱构建（Neo4j）
 ├── merge_and_deduplicate_data.py # 数据合并去重
-├── test_internal_dataset.py      # 测试脚本
+├── add_evidence_level.py         # 为关系补充来源类别字段（字段名 evidence_level 为历史保留）
+├── rebuild_stats.py              # 资源构成统计复算
+├── graph_visualization.html      # 静态可视化页面
 ├── requirements.txt              # Python依赖
-├── 投稿信息文档.md               # 投稿信息
-├── 测试改进方案.md               # 测试改进方案
 └── README.md                     # 项目说明
 ```
 
@@ -161,27 +158,32 @@ MSI-HBP-Knowledge-Graph/   # 仓库标识保留原名
 
 ## 🏗️ 知识图谱Schema
 
-### 实体类型（25种）
+### 实体索引类型（25种）
 
 | 类型 | 英文 | 数量 | 说明 |
 |------|------|------|------|
-| 治则治法 | TreatmentMethod | 159 | 治疗原则和方法 |
+| 治则治法 | Treatment Method | 159 | 治疗原则和方法 |
 | 工具 | Tool | 153 | 指标、机制和检测工具 |
 | 方剂 | Formula | 115 | 中药方剂及中成药 |
-| 症状 | Symptom | 107 | 临床表现 |
-| 疾病 | Disease | 88 | 疾病名称 |
+| 症状 | Symptom | 107 | 临床表现（含焦虑、抑郁、失眠） |
+| 疾病 | Disease | 88 | 疾病名称（含高血压及其亚型、焦虑症、抑郁症） |
 | 量表 | Scale | 69 | 临床评价量表 |
 | 中药 | Herb | 66 | 中药材 |
-| 其他 | Others | 240 | 其余18种实体类型 |
+| 病机 | Pathogenesis | 53 | 病因病机概念 |
+| 其他 | Others | 187 | 其余 17 种类型（西药、证型、穴位、体质等） |
+
+图谱节点（101 个）仅包含参与四种核心关系的词条：中药 52、方剂 18、症状 14、治则治法 8、病机 8（含 2 个病因病机）、疾病 1。
 
 ### 关系类型（4种）
 
-| 关系 | 英文 | 数量 | 说明 |
-|------|------|------|------|
-| 治疗 | TREATS | 171 | 治疗关系 |
-| 组成 | COMPOSED_OF | 84 | 组成关系 |
-| 引起 | CAUSES | 32 | 因果关系 |
-| 使用 | USES | 25 | 使用关系 |
+| 关系 | 英文 | 数量 | 来源类别 | 说明 |
+|------|------|------|------|------|
+| 治疗 | TREATS | 171 | A（具体文献） | 中药/方剂/治则治法 → 疾病/症状/病机 |
+| 组成 | COMPOSED_OF | 84 | B（《中医方剂学》） | 方剂 → 中药 |
+| 引起 | CAUSES | 32 | C（中医病机理论） | 病机 → 疾病/症状 |
+| 使用 | USES | 25 | C（中医治法/治则理论） | 病机 → 治则治法；治则治法 → 中药/方剂 |
+
+谓词标签描述资源中记录的关联，不独立构成疗效或因果的证据。
 
 ---
 
@@ -190,63 +192,60 @@ MSI-HBP-Knowledge-Graph/   # 仓库标识保留原名
 ### 核心技术栈
 
 - **后端框架**: Python 3.8+
-- **图数据库**: Neo4j 5.x
+- **图数据库**: Neo4j 5.x（可选）
 - **Web框架**: Streamlit
 - **LLM框架**: LangChain
-- **大语言模型**: Qwen2.5-7B-Instruct
+- **大语言模型**: 候选抽取与默认问答使用 Qwen2.5-7B-Instruct（SiliconFlow）；论文中的六配置消融、生成模型比较与匹配对照实验使用 DeepSeek-V4-Pro
 - **可视化**: Vis.js Network
 
 ### 系统架构
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                     Web Interface                        │
-│                    (Streamlit)                          │
+│              Interface: Streamlit web UI / CLI          │
 └─────────────────────────────────────────────────────────┘
                             │
         ┌───────────────────┼───────────────────┐
         │                   │                   │
 ┌───────▼────────┐  ┌──────▼──────┐  ┌────────▼────────┐
-│  Knowledge     │  │   QA System  │  │  Visualization  │
-│  Extraction    │  │   (LLM+KG)   │  │   (Vis.js)      │
-└───────┬────────┘  └──────┬──────┘  └─────────────────┘
-        │                   │
-        │           ┌───────▼────────┐
+│  Candidate     │  │   QA System  │  │  Visualization  │
+│  Extraction    │  │ (retrieval + │  │   (Vis.js)      │
+│  + Expert      │  │  generation) │  │                 │
+│  Curation      │  └──────┬──────┘  └─────────────────┘
+└───────┬────────┘         │
+        │           ┌──────▼─────────┐
         │           │   LLM Client   │
-        │           │  (Qwen2.5-7B)  │
         │           └────────────────┘
         │
 ┌───────▼────────────────────────────┐
-│        Neo4j Graph Database        │
-│     (Entities + Relations)         │
+│   JSON knowledge base / Neo4j      │
 └────────────────────────────────────┘
 ```
 
 ---
 
-## � 核心功能
+## 💡 核心功能
 
-### 1. 智能问答系统
-
-基于知识图谱和大语言模型的智能问答：
+### 1. 问答系统
 
 ```python
 from src.qa.qa_system import QASystem
 
-qa = QASystem()
+qa = QASystem(use_neo4j=False)   # JSON 后端；use_neo4j=True 使用 Neo4j
 result = qa.answer("天麻钩藤饮由哪些中药组成？")
 print(result['answer'])
 ```
 
-**特点**:
-- 混合实体识别（规则+LLM）
+**流程**:
+- 混合实体识别（字符串匹配 + LLM），返回最多 5 个候选实体
 - 同义词归一化
-- 多跳知识推理
-- 自然语言生成
+- 按查询类型检索关系（JSON 过程或参数化 Cypher）
+- 将最多 15 条检索到的三元组作为上下文交给生成模型合成 150–300 字回答
+
+提供图谱上下文并不保证回答正确或无编造；见论文 Results 与 Limitations。
 
 ### 2. 知识图谱可视化
 
-交互式知识图谱浏览：
 - 实体搜索和过滤
 - 关系类型筛选
 - 动态图布局
@@ -254,37 +253,32 @@ print(result['answer'])
 
 ### 3. 数据管理
 
-- 数据导入导出
 - 知识去重合并
 - 同义词管理
-- 数据统计分析
+- 资源构成统计复算（`python rebuild_stats.py`）
 
 ---
 
-## 📊 测试与评估
+## 📊 评估
 
-### 测试结果
+所有评估使用同一套 73 道问题（三位未参与系统构建的临床医师命题）与同一评分细则，由两位未参与命题的医师在不知条件的情况下独立评分，分歧取较保守档。各轮结果（分子/73）：
 
-基于150个测试案例的评估：
+| 比较 | 条件 | 完全正确 | 正确或部分正确 |
+|------|------|------|------|
+| 初始三条件（Qwen2.5-7B-Instruct，无输出长度限制） | 完整系统 / 仅检索 / 仅模型 | 5 / 0 / 0 | 29 / 5 / 13 |
+| 生成模型比较（图谱检索相同，6000 token 上限） | Qwen2.5-7B-Instruct / DeepSeek-V4-Pro | 9 / 26 | 35 / 59 |
+| 六种检索配置（DeepSeek-V4-Pro） | A0 基线 … D4 | 25 … 14 | 47 … 26 |
+| 匹配对照（DeepSeek-V4-Pro，同题同提示词） | 有图谱检索 / 无图谱检索 | **50 / 57**（P=.09） | 72 / 72 |
 
-> 系统评测正在重新执行中，结果将在更新后发布。
-
-### 运行测试
-
-```bash
-python test_internal_dataset.py
-```
-
-详细测试报告见：[测试改进方案.md](测试改进方案.md)
+「正确或部分正确」仅是两档的合计，不代表临床可接受性；安全性标记与正确性分开记录。完整材料、各轮逐条评分与说明见 [`evaluation/README.md`](evaluation/README.md)。
 
 ---
 
 ## 📚 文档
 
-- [投稿信息文档](投稿信息文档.md) - LLM模型、提示词、数据清洗标准
-- [测试改进方案](测试改进方案.md) - 测试结果分析和改进建议
-- [改进总结](改进总结.md) - 项目改进总结
+- [评估材料说明](evaluation/README.md) - 题集、评分细则、逐条评分、消融脚本
 - [部署文档](deploy/README.md) - 服务器部署指南
+- 提示词模板：[`data/prompts.py`](data/prompts.py)
 
 ---
 
@@ -293,9 +287,9 @@ python test_internal_dataset.py
 ### 本地部署
 
 ```bash
-# 1. 启动Neo4j
+# 1. 启动Neo4j（可选）
 docker run -d --name neo4j -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/123456 neo4j:latest
+  -e NEO4J_AUTH=neo4j/your_password neo4j:latest
 
 # 2. 构建知识图谱
 python build_graph.py
@@ -326,7 +320,6 @@ streamlit run app.py --server.port 8080
 
 - 遵循PEP 8代码规范
 - 添加必要的注释和文档
-- 编写单元测试
 - 更新相关文档
 
 ---
@@ -337,17 +330,17 @@ streamlit run app.py --server.port 8080
 
 ---
 
-## � 团队
+## 👥 团队
 
 - **项目负责人**: wangyu1984-SDTCM
 - **技术支持**: HTN-EC-KG Research Team
 
 ---
 
-## � 联系方式
+## 📮 联系方式
 
 - **GitHub Issues**: [提交问题](https://github.com/wangyu1984-SDTCM/MSI-HBP-Knowledge-Graph/issues)
-- **Email**: wangyu1984@example.com
+- **Email**: wangyutcm.jinan@foxmail.com
 
 ---
 

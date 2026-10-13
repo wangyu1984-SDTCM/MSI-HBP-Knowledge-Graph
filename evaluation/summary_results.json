@@ -48,5 +48,5 @@
       "directional_accuracy": 48
     }
   },
-  "note": "Round 1 was executed without an output token limit; Round 3 with a 6,000-token limit. The complete system with Qwen2.5-7B-Instruct therefore appears at 40% directional accuracy in Round 1 and 48% in Round 3; the difference reflects the token-limit correction. Retrieval-strategy ablation (configurations D1-D4) is reported in Table 4 of the manuscript."
+  "note": "Round 1 was executed without an output token limit; Round 3 with a 6,000-token limit. 'strict_accuracy' is the percentage of fully correct responses and 'directional_accuracy' the percentage of correct-or-partially-correct responses (N=73 per condition); the latter does not denote clinical acceptability. The initial and token-limited Qwen results are reported separately in the manuscript (Tables 4 and 5) and are not pooled. The six retrieval configurations (Table 6) and the additional matched DeepSeek-V4-Pro comparison with and without graph retrieval (Table 7) are reported in the manuscript and its multimedia appendices."
 }

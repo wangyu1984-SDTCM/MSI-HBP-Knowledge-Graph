@@ -1,0 +1,5 @@
+﻿record_number,related_record,status,evidence
+130,131,author_confirmed_duplicate,"Author confirmation, matching title/year; original author list retained in archive"
+170,,author_supplied_conference_citation,Author-supplied bibliographic details (2026-10-28): 李皙子. 金针、不锈钢针质治疗高血压病的临床评价研究 [Conference paper]. In: 2017四川省针灸学会学术年会论文集. 2017四川省针灸学会学术年会; 2017; 四川都江堰. p. 105-106. Original archive export label Journal retained; corrected publication type is Conference paper.
+377,375,author_confirmed_duplicate,"Author confirmation, matching title/year/author; complete journal metadata at record 375"
+408,407,author_confirmed_duplicate,"Author confirmation on 2026-10-28; same dissertation, matching title/year/institution and Chinese author name; Wanfang and CNKI exports"

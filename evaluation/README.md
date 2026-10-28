@@ -35,8 +35,10 @@ manuscript and are not part of release v2.0 of this repository:
   the exported run record (Table 7);
 - the original answer texts for the initial, generation-model and matched
   comparisons, and the 73 reference-answer keys with scoring instructions;
-- the 100 sampled curated relations with both reviewers' labels and consensus
-  outcomes (Methods, *Validation of curated relations*).
+- the complete source-attributed workbook for the original 100-relation review,
+  its independent reviewer worksheets, release-membership mapping, and restricted
+  80-relation analysis (Multimedia Appendix 4). A compact rating/membership CSV
+  and reproducibility script are also provided below in this directory.
 
 Note that the DeepSeek-V4-Pro answers rated in `ratings_round3_model_comparison.json`
 are the same 73 A0 answers that were rated in the six-configuration round; they were
@@ -70,9 +72,13 @@ and 132/146 (90.4%; Gwet AC1 = 0.87) in Round 3.
 ## Evaluation rounds
 
 - Round 1 compared three conditions using the generation call as originally
-  configured, without an output-token limit; 3 of 73 responses
-  degenerated into repetition or emitted chat-template artefacts and were rated as
-  produced.
+  configured, without an output-token limit. Many Qwen2.5-7B-Instruct responses were
+  truncated or degenerate: 62/73 model-only responses were truncated after their first
+  item and ended with a chat-template artefact, 6/73 complete-system responses contained
+  such an artefact, and 5/73 complete-system responses degenerated into repetition or
+  garbled text (2 overlapped, giving 9 distinct affected complete-system responses). All were rated as produced; the model-only condition of this round
+  therefore characterises the configuration as run, not the model's unaided capability.
+  Response texts are provided in Multimedia Appendix 6 of the manuscript.
 - Round 2 compared six retrieval configurations with DeepSeek-V4-Pro as the generation
   model (`retrieval_ablation.py`; ratings in the manuscript appendices).
 - Round 3 compared generation models under a 6000-token output limit with the same
@@ -106,3 +112,14 @@ recorded in the export. Abstracts have been removed from the public release in
 accordance with the terms of use of the source databases (Wanfang, CNKI, VIP).
 Abstracts are available from the corresponding author on reasonable request for
 verification purposes.
+
+## Relation-review correction
+
+The original 100-relation review came from an earlier unpublished local development version, not the final 312-relation graph. The worksheet was not synchronized when the graph was finalized. The old reference to a 200-triple test set was a residual instruction error. Of the 100 reviewed relations, 80 occur in `data/triples.json` in v2.0; 20 do not (9 COMPOSED_OF, 7 TREATS, 4 USES). The released-subset analysis uses those 80 records without obtaining new ratings. It is not a new stratified sample or a design-weighted estimate for the full graph.
+
+Consensus confirmed 79/80 (98.8%; 95% Wilson CI 93.3–99.8): TREATS 47/47, COMPOSED_OF 21/21, USES 6/6, and CAUSES 5/6. Initial agreement was 77/80 (96.3%); quadratic-weighted Cohen kappa = −0.02 and Gwet AC1 = 0.96 (95% paired bootstrap CI 0.91–1.00; 20,000 resamples, seed 20261028, three fixed categories). The original 96/100 is retained as a historical review result, not a final-graph sampling result.
+
+`relation_review_release_mapping.csv` preserves all 100 rating records and release-membership flags. `relation_review_statistics.json` contains the recomputed results. Reproduce them with `python evaluation/recalculate_relation_review.py` (Python with NumPy); the script verifies membership against `data/triples.json` and reports the reviewed subset separately from the historical sample. Multimedia Appendix 4 also contains the source attributions and the original reviewer worksheets. The graph data and the historical v2.0 tag are unchanged.
+
+
+The 419 entries are archived records, not a count of distinct publications. Export labels are Journal Article (321), Dissertation/Thesis (95), and Journal (3). Author-confirmed duplicate entries 130/131, 377/375, and 407/408 are cross-referenced in Multimedia Appendix 3. Record 170 is a conference paper; its citation in Multimedia Appendix 3 was completed using the bibliographic details supplied by the authors. Original archive numbering and record-level corpus counts are retained. See `data/extracted/bibliography_audit.csv` for the bibliographic checks (record numbers are 1-based array positions).

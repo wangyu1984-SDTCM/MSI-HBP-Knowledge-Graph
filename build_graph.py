@@ -28,7 +28,7 @@ def main():
         print("\n请确保:")
         print("  1. Neo4j已启动")
         print("  2. 端口7687可访问")
-        print("  3. 用户名密码正确（neo4j/123456）")
+        print("  3. 用户名和密码与服务器端配置一致（从 .env 读取）")
         return
     
     print("✅ Neo4j连接成功！")
@@ -175,7 +175,7 @@ def main():
     print(f"\n💡 下一步:")
     print(f"  1. 访问 Neo4j 浏览器: http://localhost:7474")
     print(f"  2. 用户名: neo4j")
-    print(f"  3. 密码: 123456")
+    print("  3. 使用管理员配置的 Neo4j 密码（不会在日志中显示）")
     print(f"\n  示例查询:")
     print(f"  MATCH (n {{project: 'MSI-HBP'}}) RETURN n LIMIT 25")
     print(f"  MATCH (a {{project: 'MSI-HBP'}})-[r]->(b) RETURN a, r, b LIMIT 25")

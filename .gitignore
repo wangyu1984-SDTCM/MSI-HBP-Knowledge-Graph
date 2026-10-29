@@ -93,3 +93,11 @@ build_full_revised_report.py
 make_replace_script.py
 _docx_render_review/
 _test_report_render/
+
+# Local deployment credentials and database volumes
+.env.*
+!.env.example
+*.pem
+*.key
+neo4j_data/
+deploy/upload*.tar

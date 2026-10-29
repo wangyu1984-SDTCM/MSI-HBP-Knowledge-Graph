@@ -1,5 +1,6 @@
 # ==================== 核心依赖 ====================
-# 版本固定（v2.0）：与论文可复现性声明一致，按开发环境实测版本锁定
+# v2.0.1: retain archived package pins except the unused, incompatible langchain meta-package.
+# Installation verification targets Python 3.12; historical v2.0 remains unchanged.
 python-dotenv==1.1.0
 
 # ==================== 数据处理 ====================
@@ -12,7 +13,6 @@ PyPDF2==3.0.1
 pdfminer.six==20221105
 
 # ==================== LLM和AI ====================
-langchain==0.3.25
 langchain-core==1.4.8
 langchain-openai==1.3.2
 openai==2.43.0

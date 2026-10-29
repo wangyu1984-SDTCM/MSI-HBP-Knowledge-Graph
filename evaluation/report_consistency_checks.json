@@ -1,0 +1,79 @@
+{
+  "formula_composition_questions": [
+    {
+      "id": "Q012",
+      "formula_as_asked": "柴胡加龙骨牡蛎汤",
+      "exact_name_in_index": true,
+      "exact_name_in_graph": true,
+      "exact_composition_relations": 12,
+      "other_indexed_formula_substrings": [
+        "龙骨牡蛎汤"
+      ]
+    },
+    {
+      "id": "Q013",
+      "formula_as_asked": "苓桂术甘汤",
+      "exact_name_in_index": false,
+      "exact_name_in_graph": false,
+      "exact_composition_relations": 0,
+      "other_indexed_formula_substrings": []
+    },
+    {
+      "id": "Q014",
+      "formula_as_asked": "大定风珠",
+      "exact_name_in_index": false,
+      "exact_name_in_graph": false,
+      "exact_composition_relations": 0,
+      "other_indexed_formula_substrings": []
+    },
+    {
+      "id": "Q038",
+      "formula_as_asked": "黄连温胆汤",
+      "exact_name_in_index": false,
+      "exact_name_in_graph": false,
+      "exact_composition_relations": 0,
+      "other_indexed_formula_substrings": [
+        "温胆汤"
+      ]
+    },
+    {
+      "id": "Q039",
+      "formula_as_asked": "血府逐瘀汤",
+      "exact_name_in_index": false,
+      "exact_name_in_graph": false,
+      "exact_composition_relations": 0,
+      "other_indexed_formula_substrings": []
+    },
+    {
+      "id": "Q040",
+      "formula_as_asked": "安神定志丸",
+      "exact_name_in_index": true,
+      "exact_name_in_graph": true,
+      "exact_composition_relations": 6,
+      "other_indexed_formula_substrings": []
+    },
+    {
+      "id": "Q062",
+      "formula_as_asked": "甘麦大枣汤",
+      "exact_name_in_index": false,
+      "exact_name_in_graph": false,
+      "exact_composition_relations": 0,
+      "other_indexed_formula_substrings": []
+    },
+    {
+      "id": "Q063",
+      "formula_as_asked": "朱砂安神丸",
+      "exact_name_in_index": false,
+      "exact_name_in_graph": false,
+      "exact_composition_relations": 0,
+      "other_indexed_formula_substrings": []
+    }
+  ],
+  "exact_formulas_absent_from_both": 6,
+  "candidate_fusion": {
+    "original_entity_records": 1004,
+    "fused_entity_records": 1002,
+    "merged_entity_records": 2
+  },
+  "interpretation": "Exact formula-name coverage is distinct from partial string matching. Q038 asks about 黄连温胆汤; matching 温胆汤 does not establish coverage of the requested formula."
+}

@@ -55,7 +55,7 @@
 
 ### 环境要求
 
-- Python 3.8+
+- Python 3.12（NumPy 2.5 要求 Python ≥3.12；本次环境核对使用 3.12）
 - Neo4j 5.x（可选；JSON 后端无需数据库）
 - 8GB+ RAM
 
@@ -67,6 +67,10 @@ cd MSI-HBP-Knowledge-Graph
 ```
 
 ### 2. 安装依赖
+
+`v2.0.1` 删除了未被代码导入、且与 `langchain-core==1.4.8` 冲突的 `langchain==0.3.25` 元包；代码使用 `langchain_openai` 和 `langchain_core`。其余固定版本保留。历史 `v2.0` 的依赖文件未改写。
+
+2026-10-29 已在独立的 Windows Python 3.12.14 环境完成实际安装，`pip check` 通过，问答、候选抽取、知识融合及主要依赖的离线导入通过。Q038 的实体识别实测返回“温胆汤”。这些检查不包含服务器部署或在线 LLM 请求。
 
 ```bash
 pip install -r requirements.txt
@@ -94,11 +98,12 @@ NEO4J_PASSWORD=your_password_here
 **使用Docker（推荐）:**
 
 ```bash
+export NEO4J_AUTH="neo4j/${NEO4J_PASSWORD:?Set your local Neo4j password first}"
 docker run -d \
   --name neo4j \
-  -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/your_password \
-  neo4j:latest
+  -p 127.0.0.1:7474:7474 -p 127.0.0.1:7687:7687 \
+  -e NEO4J_AUTH \
+  neo4j:5
 ```
 
 **或直接安装Neo4j:**
@@ -131,7 +136,7 @@ MSI-HBP-Knowledge-Graph/          # 仓库标识保留原名
 │   ├── triples.json             # 最终关系集（312 条，含来源与来源类别）
 │   ├── synonyms.json            # 同义词词典（28 组 / 66 个表面形式）
 │   ├── prompts.py               # 实体识别、答案合成、三元组抽取提示词模板
-│   ├── 📂 extracted/            # 419 条文献题录元数据及语料统计（摘要已按数据库条款移除）
+│   ├── 📂 extracted/            # 419 条文献题录元数据及语料统计（当前文件不含摘要；历史提交未改写）
 │   └── 📂 processed/            # 候选处理中间结果
 │       ├── extracted_triples/   # 原始抽取（1004 实体记录 / 1290 候选三元组）
 │       ├── fused_knowledge/     # 融合后（1002 / 1144）
@@ -151,7 +156,7 @@ MSI-HBP-Knowledge-Graph/          # 仓库标识保留原名
 ├── merge_and_deduplicate_data.py # 数据合并去重
 ├── add_evidence_level.py         # 为关系补充来源类别字段（字段名 evidence_level 为历史保留）
 ├── rebuild_stats.py              # 资源构成统计复算
-├── graph_visualization.html      # 静态可视化页面
+├── graph_visualization.html      # 筛选后的界面快照（38 节点、50 条边），非完整图谱
 ├── requirements.txt              # Python依赖
 └── README.md                     # 项目说明
 ```
@@ -193,7 +198,7 @@ MSI-HBP-Knowledge-Graph/          # 仓库标识保留原名
 
 ### 核心技术栈
 
-- **后端框架**: Python 3.8+
+- **后端框架**: Python 3.12（NumPy 2.5 要求 Python ≥3.12；本次环境核对使用 3.12）
 - **图数据库**: Neo4j 5.x（可选）
 - **Web框架**: Streamlit
 - **LLM框架**: LangChain
@@ -239,7 +244,7 @@ print(result['answer'])
 ```
 
 **流程**:
-- 混合实体识别（字符串匹配 + LLM），返回最多 5 个候选实体
+- 先做同义词归一化和字符串匹配，未匹配到实体时才调用 LLM，返回最多 5 个候选实体
 - 同义词归一化
 - 按查询类型检索关系（JSON 过程或参数化 Cypher）
 - 将最多 15 条检索到的三元组作为上下文交给生成模型合成 150–300 字回答
@@ -247,6 +252,8 @@ print(result['answer'])
 提供图谱上下文并不保证回答正确或无编造；见论文 Results 与 Limitations。
 
 ### 2. 知识图谱可视化
+
+`app.py` 根据界面筛选条件生成 `graph_visualization.html`。仓库中保留的是一个含 38 个节点、50 条边的生成快照；完整图谱的 101 个节点和 312 条关系以 `data/triples.json` 为准。
 
 - 实体搜索和过滤
 - 关系类型筛选
@@ -290,8 +297,9 @@ print(result['answer'])
 
 ```bash
 # 1. 启动Neo4j（可选）
-docker run -d --name neo4j -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/your_password neo4j:latest
+export NEO4J_AUTH="neo4j/${NEO4J_PASSWORD:?Set your local Neo4j password first}"
+docker run -d --name neo4j -p 127.0.0.1:7474:7474 -p 127.0.0.1:7687:7687 \
+  -e NEO4J_AUTH neo4j:5
 
 # 2. 构建知识图谱
 python build_graph.py
@@ -365,3 +373,11 @@ streamlit run app.py --server.port 8080
 Made with ❤️ by HTN-EC-KG Research Team
 
 </div>
+
+## 发布与源文献说明
+
+`v2.0.1` 汇集本轮说明修正、关系评审映射与复算材料、依赖修正及部署模板清理。图谱与评估评分数据相对 `v2.0` 未改变。组成题的方剂覆盖范围和融合计数可通过 `python evaluation/check_reported_counts.py` 重算；详见 `evaluation/README.md`。
+
+当前发布文件 `data/extracted/literature_records.json` 提供题录元数据，不包含摘要或全文。早期 Git 历史仍保留包含摘要的版本；本次没有改写历史，因此不声称已从整个仓库历史中彻底清除摘要。源文本的获取和使用仍受相应数据库条款约束。
+
+旧部署凭据已从当前文件移除；旧历史保留不等于凭据已失效。服务器端密码轮换和登录审计由管理员处理，具体见 `deploy/README.md`。

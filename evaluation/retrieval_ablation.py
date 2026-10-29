@@ -194,8 +194,8 @@ def main():
     print()
     print('Note: end-to-end accuracy for each configuration was obtained by running the')
     print('question-answering pipeline on the 73-question independent set and rating the')
-    print('responses under blinding; those results are in Table 4 of the manuscript and')
-    print('the item-level ratings are in this directory.')
+    print('responses under blinding; those results are in Table 6 of the manuscript and')
+    print('the item-level ratings are in Multimedia Appendix 5.')
 
 
 if __name__ == '__main__':

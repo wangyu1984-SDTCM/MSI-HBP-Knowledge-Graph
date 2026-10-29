@@ -108,10 +108,10 @@ hub-coverage distribution of treatment-side terms.
 `data/extracted/literature_records.json` lists the 419 source records as bibliographic
 metadata (authors, title, journal, year, volume/issue/pages, keywords, database):
 257 from Wanfang, 95 from CNKI, 62 from VIP, and 5 records whose database field was not
-recorded in the export. Abstracts have been removed from the public release in
-accordance with the terms of use of the source databases (Wanfang, CNKI, VIP).
-Abstracts are available from the corresponding author on reasonable request for
-verification purposes.
+recorded in the export. The source-record file distributed in the current release
+contains metadata without abstracts or full texts. Earlier Git history retains
+versions containing abstracts; this history has not been rewritten. Access to
+source texts remains subject to the applicable database terms.
 
 ## Prompt 1 execution
 
@@ -128,4 +128,35 @@ The available records do not document the item-specific curation decision behind
 `relation_review_release_mapping.csv` preserves all 100 rating records and release-membership flags. `relation_review_statistics.json` contains the recomputed results. Reproduce them with `python evaluation/recalculate_relation_review.py` (Python with NumPy); the script verifies membership against `data/triples.json` and reports the reviewed subset separately from the historical sample. Multimedia Appendix 4 also contains the source attributions and the original reviewer worksheets. The graph data and the historical v2.0 tag are unchanged.
 
 
+## Archived record counts and bibliographic corrections
+
 The 419 entries are archived records, not a count of distinct publications. Export labels are Journal Article (321), Dissertation/Thesis (95), and Journal (3). Author-confirmed duplicate entries 130/131, 377/375, and 407/408 are cross-referenced in Multimedia Appendix 3. Record 170 is a conference paper; its citation in Multimedia Appendix 3 was completed using the bibliographic details supplied by the authors. Original archive numbering and record-level corpus counts are retained. See `data/extracted/bibliography_audit.csv` for the bibliographic checks (record numbers are 1-based array positions).
+
+
+## Formula coverage and candidate-fusion checks
+
+Run `python evaluation/check_reported_counts.py` from the repository root.
+`report_consistency_checks.json` records the corresponding counts. Six of the eight
+formula-composition questions name formulas absent from both the entity index and
+the graph: Q013, Q014, Q038, Q039, Q062 and Q063. Q038 asks about 黄连温胆汤; the
+indexed and connected formula 温胆汤 is a substring match, not the same recorded
+formula name. Exact-name coverage and partial string recognition must be reported
+separately. Q012 and Q040 have exact-name entries and composition relations.
+
+Candidate fusion reduced 1004 entity records to 1002, and the archived
+`fusion_info.merged_entities` value is 2. The fusion implementation uses six built-in
+alias groups; these are distinct from the 28-group dictionary in `data/synonyms.json`
+used for question processing. Six alias groups do not mean six merged entities.
+
+The previously reported 366,707-character corpus total could not be reproduced
+from the archived fields, so that total and its derived mean have been removed
+from the manuscript. Counting title, keyword strings and abstract text without
+added list syntax gives 300,730 Unicode code points. Converting keyword lists with
+Python `str(list)` gives 308,362, including brackets, quotes and separators. These
+are different counting conventions and neither establishes the number of characters
+actually submitted to the extraction model. The optional `--source-records` input
+accepts an original local export and reports the first, explicitly defined count;
+the current metadata-only release cannot reproduce an abstract-inclusive count.
+
+In Round 3, the Qwen responses contain seven template artifacts and one separate
+degenerate-repetition flag (Q019), as recorded in Multimedia Appendix 6.
